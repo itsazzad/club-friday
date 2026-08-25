@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
   <title id="title">Club Friday multi-sport community logo</title>
-  <desc id="desc">Club Friday multi-sport community logo: a younger member on the left, an adult member in the center, and an older member on the right surround a simple multi-sport ball. They are joined by a curved line representing empathy, harmony, and justice. The club welcomes cricket, football, kabaddi, hockey, badminton, volleyball, athletics, and other healthy sports. The motto is Justice, Unity, Respect.</desc>
+  <desc id="desc">Club Friday multi-sport community logo: a younger member on the left, an adult member in the center, and an older member on the right surround a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, and justice. The club welcomes cricket, football, kabaddi, hockey, badminton, volleyball, athletics, and other healthy sports. The motto is Justice, Unity, Respect.</desc>
 
   <g stroke="#17324D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
     <path fill="none" stroke="#17324D" d="M103 333a178 178 0 1 1 306 0"/>
@@ -24,6 +24,9 @@
     <path fill="none" stroke="#A86B00" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
 
     <path fill="none" stroke="#28705D" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
+
+    <path fill="#A86B00" stroke="#A86B00" stroke-width="6" d="m96 364 8 8-8 8-8-8z"/>
+    <path fill="#A86B00" stroke="#A86B00" stroke-width="6" d="m416 364 8 8-8 8-8-8z"/>
   </g>
 
   <defs>

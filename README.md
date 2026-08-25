@@ -5,7 +5,7 @@ We enjoy cricket, football (soccer), kabaddi (Ha-Du-Du), hockey, badminton, voll
 
 The club promotes sportsmanship, empathy, harmony, justice, unity, and respect among people of different ages and backgrounds. The club's values are inspired by the principle of Hilf al-Fudul: people joining together to defend justice and protect those who lack strong support or influence.
 
-We are mainly a male club. Female members aged 0-10 and 60+ may join. Other female members may join through their guardians.
+We are mainly a male club. Female members aged 0-10 and 60+ may join through their male guardians.
 
 ## Logo
 
