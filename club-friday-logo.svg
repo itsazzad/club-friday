@@ -33,7 +33,7 @@
 
   <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
     <text font-size="12" font-weight="700" letter-spacing="1.5">
-      <textPath href="#motto-arc" startOffset="50%"><tspan fill="#17324D">JUSTICE</tspan><tspan fill="#4E9B83"> • UNITY • </tspan><tspan fill="#E96B50">SPORT</tspan></textPath>
+      <textPath href="#motto-arc" startOffset="50%"><tspan fill="#17324D">JUSTICE</tspan><tspan fill="#28705D"> • UNITY • </tspan><tspan fill="#B94B35">SPORT</tspan></textPath>
     </text>
     <text fill="#243746" font-size="27" font-weight="700" letter-spacing="3.5">
       <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
