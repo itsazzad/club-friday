@@ -28,7 +28,7 @@
 
   <defs>
     <path id="motto-arc" d="M121 145 Q256 48 391 145"/>
-    <path id="name-arc" d="M130 430 Q256 468 382 430"/>
+    <path id="name-arc" d="M136 426 Q256 400 376 426"/>
   </defs>
 
   <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
