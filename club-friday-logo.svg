@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 470" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
   <title id="title">Club Friday multi-sport community logo</title>
   <desc id="desc">Club Friday multi-sport community logo: three people of different ages surrounding a simple multi-sport ball, joined by a curved line representing empathy, harmony, and justice. The club welcomes cricket, football, kabaddi, hockey, badminton, volleyball, athletics, and other healthy sports. The motto is Justice, Unity, Sport.</desc>
 
@@ -17,12 +17,20 @@
     <circle cx="256" cy="316" r="55" fill="#FFFFFF" stroke-width="12"/>
     <path fill="none" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
 
-    <path fill="none" d="M91 363c48 48 105 72 165 72s117-24 165-72"/>
+    <path fill="none" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
   </g>
 
+  <defs>
+    <path id="name-arc" d="M138 430 Q256 406 374 430"/>
+    <path id="motto-arc" d="M165 443 Q256 458 347 443"/>
+  </defs>
+
   <g fill="#17324D" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
-    <text x="256" y="390" font-size="32" font-weight="700" letter-spacing="4">CLUB FRIDAY</text>
-    <path d="M160 402h192" stroke="#E96B50" stroke-width="6" stroke-linecap="round"/>
-    <text x="256" y="424" font-size="13" font-weight="700" letter-spacing="1.8">JUSTICE • UNITY • SPORT</text>
+    <text font-size="27" font-weight="700" letter-spacing="3.5">
+      <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
+    </text>
+    <text font-size="12" font-weight="700" letter-spacing="1.5">
+      <textPath href="#motto-arc" startOffset="50%">JUSTICE • UNITY • SPORT</textPath>
+    </text>
   </g>
 </svg>
