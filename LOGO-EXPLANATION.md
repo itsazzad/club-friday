@@ -85,7 +85,17 @@ The logo is designed to be reproduced without specialist equipment:
 
 The logo should remain recognizable in color, black and white, embroidery, stamps, signage, and hand-painted versions. The background is transparent by design.
 
+## Background Variants
+
+Two transparent SVG variants are provided:
+
+- `club-friday-logo.svg` is the standard version for white, cream, and other light backgrounds. It uses navy and slate for the main structure and club name.
+- `club-friday-logo-dark.svg` is the high-contrast version for black, navy, and other dark backgrounds. It uses soft white for the outer arc, Justice text, and club name, with brighter teal and gold accents.
+
+Both variants use the same proportions, symbols, lettering, and transparent background. Choose the variant according to the background instead of adding a rectangular backing shape.
+
 ## Files
 
 - `club-friday-logo.svg` - the transparent vector logo.
+- `club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
 - `README.md` - the original club brief and sports interests.

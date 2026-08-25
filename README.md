@@ -46,4 +46,10 @@ The logo is a transparent vector emblem designed to remain recognizable in color
 - Keep the background transparent.
 - The logo should remain easy to draw by hand and clear at small sizes.
 
-The logo artwork is available in [club-friday-logo.svg](club-friday-logo.svg). A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
+### Background Variants
+
+- Use [club-friday-logo.svg](club-friday-logo.svg) on white, cream, or other light backgrounds. This is the standard light-background version.
+- Use [club-friday-logo-dark.svg](club-friday-logo-dark.svg) on black, navy, or other dark backgrounds. It replaces the dark structural colors with soft white and uses brighter teal and gold accents.
+- Both files have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
+
+A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).

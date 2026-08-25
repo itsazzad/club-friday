@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
+  <title id="title">Club Friday multi-sport community logo - dark background version</title>
+  <desc id="desc">Club Friday multi-sport community logo for dark backgrounds: a younger member on the left, an adult member in the center, and an older member on the right surround a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, and justice. The motto is Justice, Unity, Respect.</desc>
+
+  <g stroke="#F4F7F5" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="none" stroke="#F4F7F5" d="M103 333a178 178 0 1 1 306 0"/>
+
+    <g id="younger-member" aria-label="Younger member">
+      <circle cx="144" cy="175" r="23" fill="#F2B544"/>
+      <path fill="none" stroke="#F2B544" d="M144 208c-25 8-42 27-42 52v28m42-80c25 8 42 27 42 52v28M119 246l-23 20m73-20 29 25m-54-13-25 47m25-47 25 47"/>
+    </g>
+
+    <g id="adult-member" aria-label="Adult member">
+      <circle cx="256" cy="130" r="23" fill="#E96B50"/>
+      <path fill="none" stroke="#E96B50" d="M256 163c-25 8-42 27-42 52v57m42-109c25 8 42 27 42 52v57M231 205l-31 29m81-29 31 29m-56 1-23 52m23-52 23 52"/>
+    </g>
+
+    <g id="older-member" aria-label="Older member">
+      <circle cx="368" cy="175" r="23" fill="#4E9B83"/>
+      <path fill="none" stroke="#4E9B83" d="M368 208c-25 8-42 27-42 52v28m42-80c25 8 42 27 42 52v28M343 246l-29 25m73-25 23 20m-42-13-25 47m25-47 25 47"/>
+    </g>
+
+    <circle cx="256" cy="316" r="55" fill="#FFF4D6" stroke="#D9A441" stroke-width="12"/>
+    <path fill="none" stroke="#D9A441" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
+
+    <path fill="none" stroke="#63B89B" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
+
+    <path fill="#D9A441" stroke="#D9A441" stroke-width="6" d="m96 364 8 8-8 8-8-8z"/>
+    <path fill="#D9A441" stroke="#D9A441" stroke-width="6" d="m416 364 8 8-8 8-8-8z"/>
+  </g>
+
+  <defs>
+    <path id="motto-arc" d="M121 145 Q256 48 391 145"/>
+    <path id="name-arc" d="M136 426 Q256 400 376 426"/>
+  </defs>
+
+  <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
+    <text font-size="12" font-weight="700" letter-spacing="1.5">
+      <textPath href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">JUSTICE</tspan><tspan fill="#63B89B"> • UNITY • </tspan><tspan fill="#F0C75E">RESPECT</tspan></textPath>
+    </text>
+    <text fill="#F4F7F5" font-size="27" font-weight="700" letter-spacing="3.5">
+      <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
+    </text>
+  </g>
+</svg>
