@@ -21,16 +21,16 @@
   </g>
 
   <defs>
-    <path id="name-arc" d="M138 430 Q256 406 374 430"/>
-    <path id="motto-arc" d="M165 443 Q256 458 347 443"/>
+    <path id="motto-arc" d="M121 145 Q256 48 391 145"/>
+    <path id="name-arc" d="M130 430 Q256 468 382 430"/>
   </defs>
 
   <g fill="#17324D" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
-    <text font-size="27" font-weight="700" letter-spacing="3.5">
-      <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
-    </text>
     <text font-size="12" font-weight="700" letter-spacing="1.5">
       <textPath href="#motto-arc" startOffset="50%">JUSTICE • UNITY • SPORT</textPath>
+    </text>
+    <text font-size="27" font-weight="700" letter-spacing="3.5">
+      <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
     </text>
   </g>
 </svg>
