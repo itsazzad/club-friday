@@ -2,27 +2,27 @@
   <title id="title">Club Friday multi-sport community logo</title>
   <desc id="desc">Club Friday multi-sport community logo: three people of different ages surrounding a simple multi-sport ball, joined by a curved line representing empathy, harmony, and justice. The club welcomes cricket, football, kabaddi, hockey, badminton, volleyball, athletics, and other healthy sports. The motto is Justice, Unity, Sport.</desc>
 
-  <g stroke="#17324D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+  <g stroke="#17324D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
     <path fill="none" d="M103 333a178 178 0 1 1 306 0"/>
 
-    <circle cx="144" cy="175" r="24" fill="#F2B544"/>
-    <path fill="none" stroke="#F2B544" d="M144 209v89m0-64-42 38m42-38 42 38m-42 26-32 55m32-55 32 55"/>
+    <circle cx="144" cy="175" r="23" fill="#F2B544"/>
+    <path fill="none" stroke="#F2B544" d="M144 208c-25 8-42 27-42 52v28m42-80c25 8 42 27 42 52v28M119 246l-23 20m73-20 29 25m-54-13-25 47m25-47 25 47"/>
 
-    <circle cx="256" cy="130" r="24" fill="#E96B50"/>
-    <path fill="none" stroke="#E96B50" d="M256 164v106m0-78-42 39m42-39 42 39m-42 39-30 53m30-53 30 53"/>
+    <circle cx="256" cy="130" r="23" fill="#E96B50"/>
+    <path fill="none" stroke="#E96B50" d="M256 163c-25 8-42 27-42 52v57m42-109c25 8 42 27 42 52v57M231 205l-31 29m81-29 31 29m-56 1-23 52m23-52 23 52"/>
 
-    <circle cx="368" cy="175" r="24" fill="#4E9B83"/>
-    <path fill="none" stroke="#4E9B83" d="M368 209v89m0-64-42 38m42-38 42 38m-42 26-32 55m32-55 32 55"/>
+    <circle cx="368" cy="175" r="23" fill="#4E9B83"/>
+    <path fill="none" stroke="#4E9B83" d="M368 208c-25 8-42 27-42 52v28m42-80c25 8 42 27 42 52v28M343 246l-29 25m73-25 23 20m-42-13-25 47m25-47 25 47"/>
 
     <circle cx="256" cy="316" r="55" fill="#FFFFFF" stroke-width="12"/>
-    <path fill="none" stroke-width="9" d="M256 272v88m-44-44h88m-62-31 62 62m0-62-62 62"/>
+    <path fill="none" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
 
     <path fill="none" d="M91 363c48 48 105 72 165 72s117-24 165-72"/>
   </g>
 
-  <g fill="#17324D" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <text x="256" y="510" font-size="42" font-weight="700" letter-spacing="4">CLUB FRIDAY</text>
+  <g fill="#17324D" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
+    <text x="256" y="510" font-size="40" font-weight="700" letter-spacing="5">CLUB FRIDAY</text>
     <path d="M144 528h224" stroke="#E96B50" stroke-width="8" stroke-linecap="round"/>
-    <text x="256" y="566" font-size="18" font-weight="700" letter-spacing="2">JUSTICE • UNITY • SPORT</text>
+    <text x="256" y="566" font-size="17" font-weight="700" letter-spacing="2.5">JUSTICE • UNITY • SPORT</text>
   </g>
 </svg>
