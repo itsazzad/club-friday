@@ -6,8 +6,8 @@
       <stop offset="0" stop-color="#17324D"/>
       <stop offset="1" stop-color="#28705D"/>
     </linearGradient>
-    <path id="motto-arc" d="M136 194 A184 184 0 0 1 504 194"/>
-    <path id="name-arc" d="M128 500 A192 192 0 0 0 512 500"/>
+    <path id="motto-arc" d="M140 185 Q320 85 500 185"/>
+    <path id="name-arc" d="M140 480 Q320 545 500 480"/>
   </defs>
 
   <circle cx="320" cy="320" r="286" fill="none" stroke="url(#badge-ring)" stroke-width="18"/>
