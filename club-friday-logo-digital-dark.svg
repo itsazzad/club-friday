@@ -6,7 +6,7 @@
       <stop offset="0" stop-color="#F4F7F5"/>
       <stop offset="1" stop-color="#63B89B"/>
     </linearGradient>
-    <path id="motto-arc" d="M140 185 Q320 85 500 185"/>
+    <path id="motto-arc" d="M154 145 Q320 48 486 145"/>
     <path id="name-arc" d="M140 480 Q320 545 500 480"/>
   </defs>
 
