@@ -14,10 +14,10 @@
   <circle cx="320" cy="320" r="260" fill="#142331" stroke="#385064" stroke-width="3"/>
 
   <g fill="#F4F7F5" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
-    <text font-size="18" font-weight="700" letter-spacing="3">
-      <textPath href="#motto-arc" startOffset="50%">JUSTICE  •  UNITY  •  RESPECT</textPath>
+    <text font-size="17" font-weight="700" letter-spacing="2.5">
+      <textPath href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">JUSTICE</tspan><tspan fill="#63B89B">  •  UNITY  •  </tspan><tspan fill="#F0C75E">RESPECT</tspan></textPath>
     </text>
-    <text font-size="42" font-weight="800" letter-spacing="5">
+    <text font-size="40" font-weight="800" letter-spacing="4.5">
       <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
     </text>
   </g>
