@@ -2,7 +2,7 @@
 
 ## Meaning
 
-The Club Friday logo represents an intergenerational sports community built on justice, unity, respect, empathy, and harmony.
+The Club Friday logo represents an intergenerational community that comes together through sports and social work. It is built on justice, unity, respect, empathy, harmony, and service to society.
 
 Three members of different ages stand together around a shared sports ball. Their arrangement shows that young people, adults, and older people all have a valued place in the club. The figures are intentionally gender-neutral so the logo represents the community as a whole.
 
@@ -49,11 +49,11 @@ The navy arc protects and frames the community. It represents justice, responsib
 
 ### Lower joining arc
 
-The teal arc connects the members visually. It represents unity, empathy, harmony, and mutual support.
+The teal arc connects the members visually. It represents unity, empathy, harmony, mutual support, and the club's social work. It shows that the members' responsibility extends beyond games and into service for the wider community.
 
 ### Side symbols
 
-Two matching four-point gold diamonds fill the spaces at the left and right of the ball. Their mirrored placement represents balance, shared values, and equal support from both sides of the community.
+Two matching four-point gold diamonds fill the spaces at the left and right of the ball. Their mirrored placement represents balance, shared values, and equal support from both sides of the community. They also represent collective responsibility: members stand together to help others, whether through sport or social work.
 
 ### Arced lettering
 
@@ -67,7 +67,7 @@ The motto follows the upper arc, while the larger club name follows the lower ar
 - **Unity** represents collective action and harmony across ages and backgrounds.
 - **Respect** represents dignity, empathy, fair play, and regard for every member.
 
-These values are inspired by the central principle of Hilf al-Fudul: people joining together to defend justice, especially for those without strong protection or influence.
+These values are inspired by the central principle of Hilf al-Fudul: people joining together to defend justice, especially for those without strong protection or influence. For Club Friday, that spirit is expressed through fair play, mutual care, and practical social work that benefits the community.
 
 ## Color Meaning
 

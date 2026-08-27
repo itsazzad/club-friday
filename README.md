@@ -1,4 +1,5 @@
 Our club name is "Club Friday". Our members are of different ages, from newborns to older people.
+We are a community group that mainly plays sports and also carries out social work to support people and strengthen society.
 We enjoy cricket, football (soccer), kabaddi (Ha-Du-Du), hockey, badminton, volleyball, local athletics, and other healthy sports.
 
 ## Club Values
@@ -16,7 +17,8 @@ The logo is a transparent vector emblem designed to remain recognizable in color
 - Three gender-neutral human figures represent younger, adult, and older members standing together.
 - The shared central ball is an abstract multi-sport symbol rather than a football. It represents cricket, football, kabaddi, hockey, badminton, volleyball, local athletics, and other healthy sports.
 - The upper navy arc represents justice, trust, protection, and responsibility.
-- The lower teal arc connects the members and represents unity, empathy, harmony, and mutual support.
+- The lower teal arc connects the members and represents unity, empathy, harmony, mutual support, and social service.
+- The side symbols represent shared responsibility and the club's willingness to stand together in both sport and social work.
 - The motto follows the upper arc, while the club name follows the lower arc inside the badge.
 
 ### Motto
@@ -26,6 +28,8 @@ The logo is a transparent vector emblem designed to remain recognizable in color
 - Justice represents fairness and standing up for people who are treated unjustly.
 - Unity represents collective action and harmony across ages and backgrounds.
 - Respect represents dignity, empathy, fair play, and regard for every member.
+
+Together, these values guide the club both on the playing field and in social work for the wellbeing of the wider community.
 
 ### Color System
 
