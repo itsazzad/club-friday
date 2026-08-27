@@ -57,3 +57,10 @@ Together, these values guide the club both on the playing field and in social wo
 - Both files have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
+
+### Digital Variants
+
+- Use [club-friday-logo-digital.svg](club-friday-logo-digital.svg) for polished digital use on light backgrounds, such as websites, social media, presentations, and digital documents.
+- Use [club-friday-logo-digital-dark.svg](club-friday-logo-digital-dark.svg) for polished digital use on black or dark backgrounds.
+- The digital variants use the same Club Friday values and symbols with a more formal enclosed badge, larger silhouettes, and stronger screen-scale typography.
+- Use the original variants when a simple hand-drawn, stamp, embroidery, or painted reproduction is needed.

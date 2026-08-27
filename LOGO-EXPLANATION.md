@@ -106,8 +106,19 @@ Two transparent SVG variants are provided:
 
 Both variants use the same proportions, symbols, lettering, and transparent background. Choose the variant according to the background instead of adding a rectangular backing shape.
 
+## Digital Variants
+
+The project also includes a more polished digital identity set:
+
+- `club-friday-logo-digital.svg` is for light digital backgrounds. It uses a formal enclosed badge, a navy-to-teal ring, larger rounded figures, and stronger screen-scale typography.
+- `club-friday-logo-digital-dark.svg` is for dark digital backgrounds. It uses the same geometry with a soft-white-to-teal ring, a deep blue interior, and brighter accents for contrast.
+
+The digital variants are intended for websites, social media, presentations, digital documents, and other screen-based applications. They preserve the three-generation community, multi-sport ball, side symbols, and the motto **JUSTICE • UNITY • RESPECT**, while giving the identity a more finished digital appearance.
+
 ## Files
 
 - `club-friday-logo.svg` - the transparent vector logo.
 - `club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
+- `club-friday-logo-digital.svg` - the polished digital vector logo for light backgrounds.
+- `club-friday-logo-digital-dark.svg` - the polished digital vector logo for dark backgrounds.
 - `README.md` - the original club brief and sports interests.
