@@ -16,6 +16,18 @@ Three members of different ages stand together around a shared sports ball. Thei
 - Their equal visual importance represents dignity across generations.
 - Their open, rounded forms suggest cooperation rather than competition between people.
 
+#### Body shape
+
+Each person is drawn with a few rounded lines instead of detailed anatomy. This keeps the figures recognizable, gender-neutral, and easy to reproduce by hand.
+
+- **Head:** The round filled circle represents the person and gives each figure a clear identity without facial details.
+- **Shoulders and torso:** The two curved lines opening outward from below the head suggest an upright, welcoming body. They also show the members standing together rather than facing away from one another.
+- **Arms:** The short diagonal lines extending outward represent open arms and readiness to cooperate. The arms help connect the figures visually to the shared ball and to one another.
+- **Legs:** The two angled lines below each torso provide a stable stance. They represent participation, movement, and a willingness to stand together for justice.
+- **Size and position:** The center adult figure is slightly larger and higher, while the younger and older figures flank it. This creates a balanced group composition and symbolizes support across generations, not superiority.
+
+The figures are intentionally symbolic rather than anatomically realistic. Their simple shapes allow the logo to work in a quick sketch, one-color stamp, embroidery, or small printed version.
+
 ### Shared sports ball
 
 The central ball is an abstract multi-sport symbol, not a football. Its curved panels suggest movement and participation across many activities, including:
