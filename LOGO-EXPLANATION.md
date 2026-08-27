@@ -108,12 +108,14 @@ Both variants use the same proportions, symbols, lettering, and transparent back
 
 ## Digital Variants
 
-The project also includes a more polished digital identity set:
+The project also includes a digital identity set that keeps the freehand logo's successful composition:
 
-- `club-friday-logo-digital.svg` is for light digital backgrounds. It uses a formal enclosed badge, a navy-to-teal ring, larger rounded figures, and stronger screen-scale typography.
-- `club-friday-logo-digital-dark.svg` is for dark digital backgrounds. It uses the same geometry with a soft-white-to-teal ring, a deep blue interior, and brighter accents for contrast.
+- `club-friday-logo-digital.svg` is for light digital backgrounds.
+- `club-friday-logo-digital-dark.svg` is for dark digital backgrounds.
 
-The digital variants are intended for websites, social media, presentations, digital documents, and other screen-based applications. They preserve the three-generation community, multi-sport ball, side symbols, and the motto **JUSTICE • UNITY • RESPECT**, while giving the identity a more finished digital appearance.
+Both digital variants preserve the freehand versions' exact arcs, ball, side symbols, text placement, colors, proportions, and transparent background. The only artwork change is the treatment of the three human figures: the freehand line figures become clean, filled digital silhouettes with rounded body shapes. This gives the digital versions a modern screen-ready appearance without creating a different logo.
+
+The digital variants are intended for websites, social media, presentations, digital documents, and other screen-based applications. The original variants remain preferred for hand drawing, stamps, embroidery, and painted reproduction.
 
 ## Files
 
