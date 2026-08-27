@@ -22,18 +22,15 @@
     </text>
   </g>
 
-  <g stroke="#17324D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
-    <path fill="#F2B544" d="M148 341c0-49 32-83 72-83s72 34 72 83v37H148z"/>
+  <g stroke="#17324D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#F2B544" d="M154 377v-37c0-46 29-76 66-76s66 30 66 76v37z"/>
     <circle cx="220" cy="226" r="34" fill="#F2B544"/>
-    <path fill="none" stroke="#F2B544" d="M180 320v54m80-54v54M174 340l-30 22m122-22 30 22M195 377l-28 54m74-54 28 54"/>
 
-    <path fill="#E96B50" d="M240 322c0-59 36-99 80-99s80 40 80 99v45H240z"/>
+    <path fill="#E96B50" d="M244 367v-45c0-56 33-91 76-91s76 35 76 91v45z"/>
     <circle cx="320" cy="174" r="38" fill="#E96B50"/>
-    <path fill="none" stroke="#E96B50" d="M276 303v70m88-70v70M272 330l-38 27m112-27 38 27M295 373l-28 58m78-58 28 58"/>
 
-    <path fill="#4E9B83" d="M348 341c0-49 32-83 72-83s72 34 72 83v37H348z"/>
+    <path fill="#4E9B83" d="M354 377v-37c0-46 29-76 66-76s66 30 66 76v37z"/>
     <circle cx="420" cy="226" r="34" fill="#4E9B83"/>
-    <path fill="none" stroke="#4E9B83" d="M380 320v54m80-54v54M374 340l-30 22m122-22 30 22M395 377l-28 54m74-54 28 54"/>
   </g>
 
   <circle cx="320" cy="354" r="68" fill="#FFF4D6" stroke="#A86B00" stroke-width="12"/>
