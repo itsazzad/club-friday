@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
+  <title id="title">ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো - গাঢ় পটভূমির সংস্করণ</title>
+  <desc id="desc">গাঢ় পটভূমির জন্য ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো। তিনটি বিমূর্ত সদস্য-ব্যাজ একটি বহু-ক্রীড়া বলকে ঘিরে আছে। প্রতীকগুলো ন্যায়বিচার, ঐক্য, সহমর্মিতা, সম্প্রীতি এবং সমাজসেবার মূল্যবোধ প্রকাশ করে।</desc>
+
+  <g stroke="#F4F7F5" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="none" stroke="#F4F7F5" d="M103 333a178 178 0 1 1 306 0"/>
+
+    <g id="younger-member" aria-label="তরুণ সদস্য">
+      <rect x="114" y="218" width="60" height="58" rx="20" fill="#F2B544" stroke="#142331"/>
+      <circle cx="144" cy="247" r="7" fill="#FFF4D6" stroke="none"/>
+    </g>
+
+    <g id="adult-member" aria-label="প্রাপ্তবয়স্ক সদস্য">
+      <rect x="214" y="153" width="84" height="84" rx="26" fill="#E96B50" stroke="#142331"/>
+      <circle cx="256" cy="195" r="9" fill="#FFF4D6" stroke="none"/>
+    </g>
+
+    <g id="older-member" aria-label="প্রবীণ সদস্য">
+      <rect x="338" y="218" width="60" height="58" rx="20" fill="#4E9B83" stroke="#142331"/>
+      <circle cx="368" cy="247" r="7" fill="#FFF4D6" stroke="none"/>
+    </g>
+
+    <circle cx="256" cy="316" r="55" fill="#FFF4D6" stroke="#D9A441" stroke-width="12"/>
+    <path fill="none" stroke="#D9A441" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
+
+    <path fill="none" stroke="#E96B50" stroke-width="8" d="M184 291h-18M184 303h-28M184 315h-18M328 291h18M328 303h28M328 315h18"/>
+
+    <path fill="none" stroke="#63B89B" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
+    <path fill="#D9A441" stroke="#D9A441" stroke-width="6" d="m96 364 8 8-8 8-8-8z"/>
+    <path fill="#D9A441" stroke="#D9A441" stroke-width="6" d="m416 364 8 8-8 8-8-8z"/>
+  </g>
+
+  <defs>
+    <path id="motto-arc" d="M121 145 Q256 48 391 145"/>
+    <path id="name-arc" d="M136 426 Q256 400 376 426"/>
+  </defs>
+
+  <g font-family="Noto Sans Bengali, Nirmala UI, sans-serif" text-anchor="middle">
+    <text font-size="14" font-weight="700" letter-spacing="0">
+      <textPath href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">ন্যায়বিচার</tspan><tspan fill="#63B89B"> • ঐক্য • </tspan><tspan fill="#F0C75E">সম্মান</tspan></textPath>
+    </text>
+    <text fill="#F4F7F5" font-size="28" font-weight="800" letter-spacing="0">
+      <textPath href="#name-arc" startOffset="50%">ক্লাব ফ্রাইডে</textPath>
+    </text>
+  </g>
+</svg>
