@@ -62,4 +62,14 @@ The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.
 
 Bangla logo files: [light SVG](club-friday-logo-bn.svg), [dark SVG](club-friday-logo-dark-bn.svg), [light PNG](club-friday-logo-bn.png), and [dark PNG](club-friday-logo-dark-bn.png).
 
+### Export PNGs
+
+Regenerate all four transparent PNGs at 1024 x 1000 with:
+
+```sh
+./export-pngs.sh
+```
+
+The command requires `rsvg-convert`, available on macOS with `brew install librsvg`.
+
 Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.
