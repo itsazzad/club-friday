@@ -43,7 +43,7 @@ Using one universal ball keeps the logo simple and prevents it from favoring one
 
 ### Action marks
 
-The paired coral marks beside the ball suggest energy, movement, and readiness to take part. They represent the club's active spirit in sports, social work, and any other good deed, so the identity feels broader than a sports club while remaining lively at a glance. Their mirrored horizontal lines reinforce balance and shared action.
+The paired coral action bursts beside the ball suggest energy, initiative, and readiness to take part. They represent the club's active spirit in sports, social work, and any other good deed, so the identity feels broader than a sports club while remaining lively at a glance. Their mirrored strokes show balanced action moving outward from the shared community.
 
 ### Outer arc
 
@@ -93,7 +93,7 @@ The logo is designed to be reproduced without specialist equipment:
 3. Add three simple round heads and rounded body shapes: younger on the left, adult in the center, and older on the right.
 4. Place one simple round sports ball beneath the figures.
 5. Draw a few broad curved panels inside the ball instead of detailed sport-specific markings.
-6. Add matching coral action marks on both sides of the ball, keeping their three horizontal lines mirrored.
+6. Add matching coral action bursts on both sides of the ball: one short horizontal stroke and two diagonal strokes radiating from each side, mirrored precisely.
 7. Add matching four-point symbols on both sides of the ball.
 8. Add the lower connecting arc, then place CLUB FRIDAY along the lower arc close to the ball.
 9. Use one dark outline when color is unavailable.
