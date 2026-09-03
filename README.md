@@ -60,10 +60,4 @@ Together, these values guide the club both on the playing field and in social wo
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
-### Digital Variants
-
-- Use [club-friday-logo-digital.svg](club-friday-logo-digital.svg) for polished digital use on light backgrounds, such as websites, social media, presentations, and digital documents.
-- Use [club-friday-logo-digital-dark.svg](club-friday-logo-digital-dark.svg) for polished digital use on black or dark backgrounds.
-- The digital variants preserve the freehand versions' exact composition, arcs, ball, side symbols, text placement, colors, and proportions.
-- Only the three human figures are changed to clean, filled digital silhouettes with rounded body shapes.
-- Use the original variants when a simple hand-drawn, stamp, embroidery, or painted reproduction is needed.
+Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.

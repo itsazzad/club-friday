@@ -109,22 +109,11 @@ Two transparent SVG variants are provided:
 
 Both variants use the same proportions, symbols, lettering, and transparent background. Choose the variant according to the background instead of adding a rectangular backing shape.
 
-## Digital Variants
-
-The project also includes a digital identity set that keeps the freehand logo's successful composition:
-
-- `club-friday-logo-digital.svg` is for light digital backgrounds.
-- `club-friday-logo-digital-dark.svg` is for dark digital backgrounds.
-
-Both digital variants preserve the freehand versions' exact arcs, ball, side symbols, text placement, colors, proportions, and transparent background. The only artwork change is the treatment of the three human figures: the freehand line figures become clean, filled digital silhouettes with rounded body shapes. This gives the digital versions a modern screen-ready appearance without creating a different logo.
-
-The digital variants are intended for websites, social media, presentations, digital documents, and other screen-based applications. The original variants remain preferred for hand drawing, stamps, embroidery, and painted reproduction.
+Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.
 
 ## Files
 
 - `club-friday-logo.svg` - the transparent vector logo.
 - `club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
-- `club-friday-logo-digital.svg` - the polished digital vector logo for light backgrounds.
-- `club-friday-logo-digital-dark.svg` - the polished digital vector logo for dark backgrounds.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
