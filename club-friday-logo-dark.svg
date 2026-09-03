@@ -23,7 +23,7 @@
     <circle cx="256" cy="316" r="55" fill="#FFF4D6" stroke="#D9A441" stroke-width="12"/>
     <path fill="none" stroke="#D9A441" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
 
-    <path fill="none" stroke="#E96B50" stroke-width="8" d="M184 291h-18m18 12h-28m28 12h-18m144-24h18m-18 12h28m-28 12h18"/>
+    <path fill="none" stroke="#E96B50" stroke-width="8" d="M184 291h-18M184 303h-28M184 315h-18M328 291h18M328 303h28M328 315h18"/>
 
     <path fill="none" stroke="#63B89B" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
 
