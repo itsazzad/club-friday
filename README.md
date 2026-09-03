@@ -24,7 +24,7 @@ The logo is a transparent vector emblem designed to remain recognizable in color
 
 ### Motto
 
-**JUSTICE - UNITY - RESPECT**
+**JUSTICE • UNITY • RESPECT**
 
 - Justice represents fairness and standing up for people who are treated unjustly.
 - Unity represents collective action and harmony across ages and backgrounds.
@@ -47,6 +47,8 @@ Together, these values guide the club both on the playing field and in social wo
 
 - Use clean, smooth edges and simple rounded shapes.
 - Keep one consistent outline when color is unavailable.
+- Use three rounded membership badges instead of human figures.
+- Use three separated coral action-burst strokes on each side of the ball.
 - Avoid detailed sport-specific equipment or tiny marks.
 - Keep the background transparent.
 - The logo should remain easy to draw by hand and clear at small sizes.
@@ -70,6 +72,6 @@ Regenerate all four transparent PNGs at 1024 x 1000 with:
 ./export-pngs.sh
 ```
 
-The command requires `rsvg-convert`, available on macOS with `brew install librsvg`.
+The command requires Inkscape, available on macOS with `brew install --cask inkscape`.
 
 Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
   <title id="title">ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো - গাঢ় পটভূমির সংস্করণ</title>
-  <desc id="desc">গাঢ় পটভূমির জন্য ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো। তিনটি বিমূর্ত সদস্য-ব্যাজ একটি বহু-ক্রীড়া বলকে ঘিরে আছে। প্রতীকগুলো ন্যায়বিচার, ঐক্য, সহমর্মিতা, সম্প্রীতি এবং সমাজসেবার মূল্যবোধ প্রকাশ করে।</desc>
+  <desc id="desc">গাঢ় পটভূমির জন্য ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো। তিনটি বিমূর্ত সদস্য-ব্যাজ একটি বহু-ক্রীড়া বলকে ঘিরে আছে। প্রতীকগুলো ন্যায্যতা, ঐক্য, সহমর্মিতা, সম্প্রীতি এবং সমাজসেবার মূল্যবোধ প্রকাশ করে।</desc>
 
   <g stroke="#F4F7F5" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
     <path fill="none" stroke="#F4F7F5" d="M103 333a178 178 0 1 1 306 0"/>
@@ -37,7 +37,7 @@
 
   <g font-family="Kohinoor Bangla, Bangla Sangam MN, sans-serif" text-anchor="middle">
     <text font-size="14" font-weight="700">
-      <textPath xlink:href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">ন্যায়বিচার</tspan><tspan fill="#63B89B"> • ঐক্য • </tspan><tspan fill="#F0C75E">সম্মান</tspan></textPath>
+      <textPath xlink:href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">ন্যায্যতা</tspan><tspan fill="#63B89B"> • ঐক্য • </tspan><tspan fill="#F0C75E">সম্মান</tspan></textPath>
     </text>
     <text fill="#F4F7F5" font-size="28" font-weight="800">
       <textPath xlink:href="#name-arc" startOffset="50%">ক্লাব ফ্রাইডে</textPath>

@@ -88,10 +88,10 @@ The darker colors are used for small text and structural lines so the logo remai
 
 The logo is designed to be reproduced without specialist equipment:
 
-1. Draw a broad upper arc to frame the three members.
+1. Draw a broad upper arc to frame the three member badges.
 2. Add the motto along the upper arc: JUSTICE • UNITY • RESPECT.
-3. Add three simple round heads and rounded body shapes: younger on the left, adult in the center, and older on the right.
-4. Place one simple round sports ball beneath the figures.
+3. Add three rounded membership badges: younger on the left, adult in the center, and older on the right.
+4. Place one simple round sports ball beneath the badges.
 5. Draw a few broad curved panels inside the ball instead of detailed sport-specific markings.
 6. Add matching coral action bursts on both sides of the ball: one short horizontal stroke and two diagonal strokes radiating from each side, mirrored precisely.
 7. Add matching four-point symbols on both sides of the ball.
