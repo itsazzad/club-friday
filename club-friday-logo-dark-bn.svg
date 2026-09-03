@@ -35,7 +35,7 @@
     <path id="name-arc" d="M136 426 Q256 400 376 426"/>
   </defs>
 
-  <g font-family="Noto Sans Bengali, Nirmala UI, sans-serif" text-anchor="middle">
+  <g font-family="Kohinoor Bangla, Bangla Sangam MN, sans-serif" text-anchor="middle">
     <text font-size="14" font-weight="700">
       <textPath xlink:href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">ন্যায়বিচার</tspan><tspan fill="#63B89B"> • ঐক্য • </tspan><tspan fill="#F0C75E">সম্মান</tspan></textPath>
     </text>
