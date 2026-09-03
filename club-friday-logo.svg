@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
   <title id="title">Club Friday multi-sport community logo</title>
   <desc id="desc">Club Friday community logo: three abstract membership badges represent younger, adult, and older members surrounding a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, justice, and service to society.</desc>
 
@@ -31,17 +31,12 @@
     <path fill="#A86B00" stroke="#A86B00" stroke-width="6" d="m416 364 8 8-8 8-8-8z"/>
   </g>
 
-  <defs>
-    <path id="motto-arc" d="M121 145 Q256 48 391 145"/>
-    <path id="name-arc" d="M136 426 Q256 400 376 426"/>
-  </defs>
-
   <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
-    <text font-size="14" font-weight="700" letter-spacing="1.5">
-      <textPath href="#motto-arc" startOffset="50%"><tspan fill="#17324D">JUSTICE</tspan><tspan fill="#28705D"> • UNITY • </tspan><tspan fill="#A86B00">RESPECT</tspan></textPath>
+    <text x="256" y="99" font-size="14" font-weight="700" letter-spacing="1.5">
+      <tspan fill="#17324D">JUSTICE</tspan><tspan fill="#28705D"> • UNITY • </tspan><tspan fill="#A86B00">RESPECT</tspan>
     </text>
-    <text fill="#243746" font-size="32" font-weight="800" letter-spacing="4">
-      <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
+    <text x="256" y="425" fill="#243746" font-size="32" font-weight="800" letter-spacing="4">
+      CLUB FRIDAY
     </text>
   </g>
 </svg>

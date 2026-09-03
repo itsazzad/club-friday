@@ -57,9 +57,9 @@ The teal arc connects the members visually. It represents unity, empathy, harmon
 
 Two matching four-point gold diamonds fill the spaces at the left and right of the ball. Their mirrored placement represents balance, shared values, and equal support from both sides of the community. They also represent collective responsibility: members stand together to help others, whether through sport or social work.
 
-### Arced lettering
+### Centered lettering
 
-The motto follows the upper arc, while the larger club name follows the lower arc closer to the ball. This creates a clear reading order and keeps both lines inside the same community badge.
+The motto is centered beneath the upper arc, while the larger club name is centered above the lower joining arc. This creates a clear reading order and keeps both lines inside the same community badge across SVG and PNG exports.
 
 ## Motto
 
