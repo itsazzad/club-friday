@@ -60,6 +60,6 @@ Together, these values guide the club both on the playing field and in social wo
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
-Bangla logo files: [light](club-friday-logo-bn.svg) and [dark](club-friday-logo-dark-bn.svg).
+Bangla logo files: [light SVG](club-friday-logo-bn.svg), [dark SVG](club-friday-logo-dark-bn.svg), [light PNG](club-friday-logo-bn.png), and [dark PNG](club-friday-logo-dark-bn.png).
 
 Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.

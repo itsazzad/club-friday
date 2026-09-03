@@ -117,5 +117,9 @@ Both variants can be used in print and digital applications, including websites,
 - `club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
 - `club-friday-logo-bn.svg` - the Bangla transparent vector logo for light backgrounds.
 - `club-friday-logo-dark-bn.svg` - the Bangla transparent vector logo for dark backgrounds.
+- `club-friday-logo.png` - the English transparent PNG logo for light backgrounds.
+- `club-friday-logo-dark.png` - the English transparent PNG logo for dark backgrounds.
+- `club-friday-logo-bn.png` - the Bangla transparent PNG logo for light backgrounds.
+- `club-friday-logo-dark-bn.png` - the Bangla transparent PNG logo for dark backgrounds.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
