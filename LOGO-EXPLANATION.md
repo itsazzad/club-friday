@@ -126,4 +126,5 @@ The digital variants are intended for websites, social media, presentations, dig
 - `club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
 - `club-friday-logo-digital.svg` - the polished digital vector logo for light backgrounds.
 - `club-friday-logo-digital-dark.svg` - the polished digital vector logo for dark backgrounds.
+- `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.

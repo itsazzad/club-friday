@@ -58,6 +58,7 @@ Together, these values guide the club both on the playing field and in social wo
 - Both files have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
+The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
 ### Digital Variants
 
