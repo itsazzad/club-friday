@@ -1,27 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 500" role="img" aria-labelledby="title desc">
   <title id="title">Club Friday digital community logo - dark background</title>
-  <desc id="desc">Digital Club Friday dark-background logo using the freehand badge composition with three polished digital silhouettes representing younger, adult, and older members united around a multi-sport ball.</desc>
+  <desc id="desc">Digital Club Friday dark-background logo using the freehand badge composition with three abstract membership badges representing younger, adult, and older members united around a multi-sport ball.</desc>
 
   <g stroke="#F4F7F5" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
     <path fill="none" stroke="#F4F7F5" d="M103 333a178 178 0 1 1 306 0"/>
 
     <g id="younger-member" aria-label="Younger member">
-      <circle cx="144" cy="175" r="23" fill="#F2B544"/>
-      <path fill="#F2B544" stroke="#142331" d="M104 298v-33c0-36 17-57 40-57s40 21 40 57v33z"/>
+      <rect x="114" y="218" width="60" height="58" rx="20" fill="#F2B544" stroke="#142331"/>
+      <circle cx="144" cy="247" r="7" fill="#FFF4D6" stroke="none"/>
     </g>
 
     <g id="adult-member" aria-label="Adult member">
-      <circle cx="256" cy="130" r="23" fill="#E96B50"/>
-      <path fill="#E96B50" stroke="#142331" d="M214 298v-65c0-45 18-70 42-70s42 25 42 70v65z"/>
+      <rect x="214" y="153" width="84" height="84" rx="26" fill="#E96B50" stroke="#142331"/>
+      <circle cx="256" cy="195" r="9" fill="#FFF4D6" stroke="none"/>
     </g>
 
     <g id="older-member" aria-label="Older member">
-      <circle cx="368" cy="175" r="23" fill="#4E9B83"/>
-      <path fill="#4E9B83" stroke="#142331" d="M328 298v-33c0-36 17-57 40-57s40 21 40 57v33z"/>
+      <rect x="338" y="218" width="60" height="58" rx="20" fill="#4E9B83" stroke="#142331"/>
+      <circle cx="368" cy="247" r="7" fill="#FFF4D6" stroke="none"/>
     </g>
 
     <circle cx="256" cy="316" r="55" fill="#FFF4D6" stroke="#D9A441" stroke-width="12"/>
     <path fill="none" stroke="#D9A441" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
+
+    <path fill="none" stroke="#E96B50" stroke-width="8" d="M184 291h-18m18 12h-28m28 12h-18m144-24h18m-18 12h28m-28 12h18"/>
 
     <path fill="none" stroke="#63B89B" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
     <path fill="#D9A441" stroke="#D9A441" stroke-width="6" d="m96 364 8 8-8 8-8-8z"/>
@@ -34,10 +36,10 @@
   </defs>
 
   <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
-    <text font-size="12" font-weight="700" letter-spacing="1.5">
+    <text font-size="14" font-weight="700" letter-spacing="1.5">
       <textPath href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">JUSTICE</tspan><tspan fill="#63B89B"> • UNITY • </tspan><tspan fill="#F0C75E">RESPECT</tspan></textPath>
     </text>
-    <text fill="#F4F7F5" font-size="27" font-weight="700" letter-spacing="3.5">
+    <text fill="#F4F7F5" font-size="32" font-weight="800" letter-spacing="4">
       <textPath href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
     </text>
   </g>

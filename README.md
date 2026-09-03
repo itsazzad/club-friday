@@ -14,8 +14,9 @@ The logo is a transparent vector emblem designed to remain recognizable in color
 
 ### Symbolism
 
-- Three gender-neutral human figures represent younger, adult, and older members standing together.
+- Three rounded membership badges represent younger, adult, and older members standing together without relying on human figures.
 - The shared central ball is an abstract multi-sport symbol rather than a football. It represents cricket, football, kabaddi, hockey, badminton, volleyball, local athletics, and other healthy sports.
+- The coral action marks beside the ball add energy and signal readiness to participate in sports, social work, and any other good deed.
 - The upper navy arc represents justice, trust, protection, and responsibility.
 - The lower teal arc connects the members and represents unity, empathy, harmony, mutual support, and social service.
 - The side symbols represent shared responsibility and the club's willingness to stand together in both sport and social work.

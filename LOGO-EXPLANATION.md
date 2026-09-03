@@ -4,29 +4,27 @@
 
 The Club Friday logo represents an intergenerational community that comes together through sports and social work. It is built on justice, unity, respect, empathy, harmony, and service to society.
 
-Three members of different ages stand together around a shared sports ball. Their arrangement shows that young people, adults, and older people all have a valued place in the club. The figures are intentionally gender-neutral so the logo represents the community as a whole.
+Three membership badges of different sizes stand together around a shared ball. Their arrangement shows that young people, adults, and older people all have a valued place in the club without making the logo depend on human figures or gender cues.
 
 ## Main Elements
 
-### Three members
+### Three member badges
 
-- The younger member is on the left.
-- The adult member is in the center.
-- The older member is on the right.
+- The smaller yellow badge on the left represents younger members.
+- The larger coral badge in the center represents adult members.
+- The smaller green badge on the right represents older members.
 - Their equal visual importance represents dignity across generations.
-- Their open, rounded forms suggest cooperation rather than competition between people.
+- Their rounded geometric forms suggest belonging, cooperation, and shared responsibility rather than competition.
 
-#### Body shape
+#### Badge shape
 
-Each person is drawn with a few rounded lines instead of detailed anatomy. This keeps the figures recognizable, gender-neutral, and easy to reproduce by hand.
+Each member is represented by a rounded badge with a small inner point. The badge reads as a member marker rather than a person, keeping the logo welcoming, gender-neutral, and easy to reproduce by hand.
 
-- **Head:** The round filled circle represents the person and gives each figure a clear identity without facial details.
-- **Shoulders and torso:** The two curved lines opening outward from below the head suggest an upright, welcoming body. They also show the members standing together rather than facing away from one another.
-- **Arms:** The short diagonal lines extending outward represent open arms and readiness to cooperate. The arms help connect the figures visually to the shared ball and to one another.
-- **Legs:** The two angled lines below each torso provide a stable stance. They represent participation, movement, and a willingness to stand together for justice.
-- **Size and position:** The center adult figure is slightly larger and higher, while the younger and older figures flank it. This creates a balanced group composition and symbolizes support across generations, not superiority.
+- **Rounded badge:** The soft square form represents belonging and a place within the club.
+- **Inner point:** The small light center represents each member's individual value within the wider community.
+- **Size and position:** The center adult badge is larger and higher, while the younger and older badges flank it. This shows the generations supporting one another, not a hierarchy of worth.
 
-The figures are intentionally symbolic rather than anatomically realistic. Their simple shapes allow the logo to work in a quick sketch, one-color stamp, embroidery, or small printed version.
+The badges are intentionally symbolic rather than literal. Their simple shapes allow the logo to work in a quick sketch, one-color stamp, embroidery, or small printed version.
 
 ### Shared sports ball
 
@@ -42,6 +40,10 @@ The central ball is an abstract multi-sport symbol, not a football. Its curved p
 - Other healthy sports
 
 Using one universal ball keeps the logo simple and prevents it from favoring one sport over another.
+
+### Action marks
+
+The paired coral marks beside the ball suggest energy, movement, and readiness to take part. They represent the club's active spirit in sports, social work, and any other good deed, so the identity feels broader than a sports club while remaining lively at a glance. Their mirrored horizontal lines reinforce balance and shared action.
 
 ### Outer arc
 
@@ -91,9 +93,10 @@ The logo is designed to be reproduced without specialist equipment:
 3. Add three simple round heads and rounded body shapes: younger on the left, adult in the center, and older on the right.
 4. Place one simple round sports ball beneath the figures.
 5. Draw a few broad curved panels inside the ball instead of detailed sport-specific markings.
-6. Add matching four-point symbols on both sides of the ball.
-7. Add the lower connecting arc, then place CLUB FRIDAY along the lower arc close to the ball.
-8. Use one dark outline when color is unavailable.
+6. Add matching coral action marks on both sides of the ball, keeping their three horizontal lines mirrored.
+7. Add matching four-point symbols on both sides of the ball.
+8. Add the lower connecting arc, then place CLUB FRIDAY along the lower arc close to the ball.
+9. Use one dark outline when color is unavailable.
 
 The logo should remain recognizable in color, black and white, embroidery, stamps, signage, and hand-painted versions. The background is transparent by design.
 
