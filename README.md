@@ -66,11 +66,11 @@ The logo uses six expressive colors plus warm cream as a neutral support color. 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
-Bangla logo files: [light SVG](logo/club-friday-logo-bn.svg), [dark SVG](logo/club-friday-logo-dark-bn.svg), [light PNG](logo/club-friday-logo-bn.png), and [dark PNG](logo/club-friday-logo-dark-bn.png).
+Bangla logo files: [light SVG](logo/club-friday-logo-bn.svg), [dark SVG](logo/club-friday-logo-dark-bn.svg), [jersey SVG](logo/club-friday-logo-jersey-bn.svg), [one-color SVG](logo/club-friday-logo-one-color-bn.svg), and matching PNG exports.
 
 ### Export PNGs
 
-The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared geometry and SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets plus the small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all six SVGs and their transparent PNGs at 1024 x 1000 with:
+The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared geometry and SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets plus the small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all eight SVGs and their transparent PNGs at 1024 x 1000 with:
 
 ```sh
 ./generate-logos.sh

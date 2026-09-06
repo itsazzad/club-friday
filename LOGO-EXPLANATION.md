@@ -123,13 +123,17 @@ For stamps, embroidery, engraving, and very small applications, use `logo/club-f
 - `logo/club-friday-logo-bn.svg` - the Bangla transparent vector logo for light backgrounds.
 - `logo/club-friday-logo-dark-bn.svg` - the Bangla transparent vector logo for dark backgrounds.
 - `logo/club-friday-logo-jersey.svg` - the high-contrast transparent vector logo for the red jersey.
+- `logo/club-friday-logo-jersey-bn.svg` - the Bangla high-contrast transparent vector logo for the red jersey.
 - `logo/club-friday-logo-one-color.svg` - the single-color transparent vector logo for production applications.
+- `logo/club-friday-logo-one-color-bn.svg` - the Bangla single-color transparent vector logo for production applications.
 - `logo/club-friday-logo.png` - the English transparent PNG logo for light backgrounds.
 - `logo/club-friday-logo-dark.png` - the English transparent PNG logo for dark backgrounds.
 - `logo/club-friday-logo-bn.png` - the Bangla transparent PNG logo for light backgrounds.
 - `logo/club-friday-logo-dark-bn.png` - the Bangla transparent PNG logo for dark backgrounds.
 - `logo/club-friday-logo-jersey.png` - the high-contrast transparent PNG logo for the red jersey.
+- `logo/club-friday-logo-jersey-bn.png` - the Bangla high-contrast transparent PNG logo for the red jersey.
 - `logo/club-friday-logo-one-color.png` - the single-color transparent PNG logo for production applications.
+- `logo/club-friday-logo-one-color-bn.png` - the Bangla single-color transparent PNG logo for production applications.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
 - `logo-template.svg` - the shared SVG structure used by the generator.

@@ -121,4 +121,8 @@
 - `logo/club-friday-logo-dark.png` - গাঢ় পটভূমির জন্য ইংরেজি লেখাযুক্ত স্বচ্ছ PNG লোগো।
 - `logo/club-friday-logo-bn.png` - হালকা পটভূমির জন্য বাংলা লেখাযুক্ত স্বচ্ছ PNG লোগো।
 - `logo/club-friday-logo-dark-bn.png` - গাঢ় পটভূমির জন্য বাংলা লেখাযুক্ত স্বচ্ছ PNG লোগো।
+- `logo/club-friday-logo-jersey-bn.svg` - লাল জার্সির জন্য বাংলা লেখাযুক্ত উচ্চ-কনট্রাস্ট স্বচ্ছ ভেক্টর লোগো।
+- `logo/club-friday-logo-one-color-bn.svg` - উৎপাদনমূলক ব্যবহারের জন্য বাংলা একরঙা স্বচ্ছ ভেক্টর লোগো।
+- `logo/club-friday-logo-jersey-bn.png` - লাল জার্সির জন্য বাংলা লেখাযুক্ত উচ্চ-কনট্রাস্ট স্বচ্ছ PNG লোগো।
+- `logo/club-friday-logo-one-color-bn.png` - উৎপাদনমূলক ব্যবহারের জন্য বাংলা একরঙা স্বচ্ছ PNG লোগো।
 - `README.md` - ক্লাবের মূল বিবরণ ও খেলাধুলার আগ্রহ।

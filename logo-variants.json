@@ -61,6 +61,18 @@
       "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"],
       "mottoColors": ["#F4F7F5", "#63B89B", "#F0C75E"],
       "name": "ক্লাব ফ্রাইডে", "nameFill": "#F4F7F5", "mottoSize": 14, "nameSize": 28
+    },
+    "banglaJersey": {
+      "family": "Kohinoor Bangla, Bangla Sangam MN, sans-serif",
+      "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"],
+      "mottoColors": ["#F4F7F5", "#F4F7F5", "#F4F7F5"],
+      "name": "ক্লাব ফ্রাইডে", "nameFill": "#F4F7F5", "mottoSize": 14, "nameSize": 28
+    },
+    "banglaOneColor": {
+      "family": "Kohinoor Bangla, Bangla Sangam MN, sans-serif",
+      "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"],
+      "mottoColors": ["#17324D", "#17324D", "#17324D"],
+      "name": "ক্লাব ফ্রাইডে", "nameFill": "#17324D", "mottoSize": 14, "nameSize": 28
     }
   },
   "variants": [
@@ -69,6 +81,8 @@
     {"file": "club-friday-logo-bn.svg", "title": "ক্লাব ফ্রাইডে বহু-ক্রীড়া সম্প্রদায়ের লোগো", "description": "ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো: তিনটি বিমূর্ত সদস্য-ব্যাজ তরুণ, প্রাপ্তবয়স্ক ও প্রবীণ সদস্যদের একটি সরল বহুক্রীড়া বলের চারপাশে উপস্থাপন করে।", "artwork": "light", "text": "banglaLight"},
     {"file": "club-friday-logo-dark-bn.svg", "title": "ক্লাব ফ্রাইডে বহু-ক্রীড়া সম্প্রদায়ের লোগো - গাঢ় পটভূমির সংস্করণ", "description": "গাঢ় পটভূমির জন্য ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো: তিনটি বিমূর্ত সদস্য-ব্যাজ একটি সরল বহুক্রীড়া বলকে ঘিরে রয়েছে।", "artwork": "dark", "text": "banglaDark"},
     {"file": "club-friday-logo-jersey.svg", "title": "Club Friday jersey logo", "description": "Single-color Club Friday community logo for the red jersey color #DA291C. White artwork provides contrast, with jersey-red cutouts inside the member badges and ball.", "artwork": "jersey", "text": "englishDark"},
-    {"file": "club-friday-logo-one-color.svg", "title": "Club Friday one-color logo", "description": "Single-color Club Friday community logo for stamps, embroidery, and very small applications.", "artwork": "oneColor", "text": "englishLight"}
+    {"file": "club-friday-logo-jersey-bn.svg", "title": "ক্লাব ফ্রাইডে জার্সির লোগো", "description": "#DA291C লাল জার্সির জন্য একরঙা ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো। সাদা নকশা দৃশ্যমানতা বাড়ায় এবং সদস্য-ব্যাজ ও বলের ভেতরে জার্সির লাল রঙের ফাঁকা অংশ থাকে।", "artwork": "jersey", "text": "banglaJersey"},
+    {"file": "club-friday-logo-one-color.svg", "title": "Club Friday one-color logo", "description": "Single-color Club Friday community logo for stamps, embroidery, and very small applications.", "artwork": "oneColor", "text": "englishLight"},
+    {"file": "club-friday-logo-one-color-bn.svg", "title": "ক্লাব ফ্রাইডে একরঙা লোগো", "description": "স্ট্যাম্প, সূচিকর্ম এবং খুব ছোট আকারের ব্যবহারের জন্য একরঙা ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।", "artwork": "oneColor", "text": "banglaOneColor"}
   ]
 }
