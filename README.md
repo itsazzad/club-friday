@@ -60,6 +60,7 @@ The logo uses six expressive colors plus warm cream as a neutral support color. 
 - Use [club-friday-logo.svg](club-friday-logo.svg) on the `#FFF` white jersey. Its navy, teal, gold, yellow, coral, and green details are designed for light backgrounds.
 - Use [club-friday-logo-dark.svg](club-friday-logo-dark.svg) on black, navy, or other dark backgrounds. It replaces the dark structural colors with soft white and uses brighter teal and gold accents.
 - Use [club-friday-logo-jersey.svg](club-friday-logo-jersey.svg) on the `#DA291C` red jersey. It is a high-contrast white version with jersey-red cutouts inside the badges and ball.
+- Use [club-friday-logo-one-color.svg](club-friday-logo-one-color.svg) for stamps, embroidery, engraving, and very small applications. It uses one navy ink color and open substrate for the internal details.
 - These variants have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
@@ -69,7 +70,7 @@ Bangla logo files: [light SVG](club-friday-logo-bn.svg), [dark SVG](club-friday-
 
 ### Export PNGs
 
-Regenerate all five transparent PNGs at 1024 x 1000 with:
+Regenerate all six transparent PNGs at 1024 x 1000 with:
 
 ```sh
 ./export-pngs.sh

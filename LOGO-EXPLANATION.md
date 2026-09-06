@@ -114,6 +114,8 @@ The `club-friday-logo-jersey.svg` variant is provided for the club's `#DA291C` r
 
 For the club's `#FFF` white jersey, use `club-friday-logo.svg` or its PNG export. The standard light-background logo preserves the full color meaning and has sufficient separation on white fabric.
 
+For stamps, embroidery, engraving, and very small applications, use `club-friday-logo-one-color.svg` or its PNG export. It uses one navy ink color; the internal details are simplified to open substrate so the mark remains reproducible without a second ink.
+
 ## Files
 
 - `club-friday-logo.svg` - the transparent vector logo.
@@ -121,10 +123,12 @@ For the club's `#FFF` white jersey, use `club-friday-logo.svg` or its PNG export
 - `club-friday-logo-bn.svg` - the Bangla transparent vector logo for light backgrounds.
 - `club-friday-logo-dark-bn.svg` - the Bangla transparent vector logo for dark backgrounds.
 - `club-friday-logo-jersey.svg` - the high-contrast transparent vector logo for the red jersey.
+- `club-friday-logo-one-color.svg` - the single-color transparent vector logo for production applications.
 - `club-friday-logo.png` - the English transparent PNG logo for light backgrounds.
 - `club-friday-logo-dark.png` - the English transparent PNG logo for dark backgrounds.
 - `club-friday-logo-bn.png` - the Bangla transparent PNG logo for light backgrounds.
 - `club-friday-logo-dark-bn.png` - the Bangla transparent PNG logo for dark backgrounds.
 - `club-friday-logo-jersey.png` - the high-contrast transparent PNG logo for the red jersey.
+- `club-friday-logo-one-color.png` - the single-color transparent PNG logo for production applications.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
