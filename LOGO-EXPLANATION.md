@@ -73,16 +73,15 @@ These values are inspired by the central principle of Hilf al-Fudul: people join
 
 ## Color Meaning
 
-- **Navy `#17324D`** - justice, trust, protection, and responsibility. Used for the outer arc and the word JUSTICE.
+- **Navy `#17324D`** - justice, trust, protection, and responsibility. Used for the outer arc, the words JUSTICE and CLUB FRIDAY, and the main structural lines.
 - **Teal `#28705D`** - unity, empathy, harmony, and community. Used for the lower joining arc and the word UNITY.
 - **Dark gold `#A86B00`** - dignity, value, and moral courage. Used for the shared ball, its panels, the word RESPECT, and the two side symbols.
 - **Yellow `#F2B544`** - optimism, youth, and inclusion. Used for the younger member.
 - **Coral `#E96B50`** - energy, confidence, and active participation. Used for the adult member.
 - **Green `#4E9B83`** - growth, balance, and continuity. Used for the older member.
-- **Slate `#243746`** - professionalism and strong identity. Used for CLUB FRIDAY.
-- **Warm cream `#FFF4D6`** - openness and shared space. Used inside the ball.
+- **Warm cream `#FFF4D6`** - openness and shared space. Used as a neutral support color inside the ball and member badges.
 
-The darker colors are used for small text and structural lines so the logo remains readable in print.
+The logo uses six expressive colors plus warm cream as a neutral support color. The darker colors are used for small text and structural lines so the logo remains readable in print.
 
 ## Hand-Drawing Guidance
 
@@ -104,7 +103,7 @@ The logo should remain recognizable in color, black and white, embroidery, stamp
 
 Two transparent SVG variants are provided:
 
-- `club-friday-logo.svg` is the standard version for white, cream, and other light backgrounds. It uses navy and slate for the main structure and club name.
+- `club-friday-logo.svg` is the standard version for white, cream, and other light backgrounds. It uses navy for the main structure and club name.
 - `club-friday-logo-dark.svg` is the high-contrast version for black, navy, and other dark backgrounds. It uses soft white for the outer arc, Justice text, and club name, with brighter teal and gold accents.
 
 Both variants use the same proportions, symbols, lettering, and transparent background. Choose the variant according to the background instead of adding a rectangular backing shape.

@@ -40,8 +40,9 @@ Together, these values guide the club both on the playing field and in social wo
 - Yellow `#F2B544`: optimism, youth, and inclusion.
 - Coral `#E96B50`: energy, confidence, and participation.
 - Green `#4E9B83`: growth, balance, and continuity.
-- Slate `#243746`: professional club identity.
-- Warm cream `#FFF4D6`: openness and shared space.
+- Warm cream `#FFF4D6`: neutral support color for openness and shared space.
+
+The logo uses six expressive colors plus warm cream as a neutral support color. Navy is used for both the main structure and the club name to keep the palette compact and consistent.
 
 ### Hand-Drawing Requirements
 
