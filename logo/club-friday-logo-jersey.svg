@@ -6,17 +6,17 @@
       <path fill="none" stroke="#F4F7F5" d="M103 333a178 178 0 1 1 306 0"/>
 
       <g id="younger-member" aria-label="younger-member">
-        <rect x="114" y="218" width="60" height="58" rx="20" fill="#F4F7F5"/>
+        <rect x="114" y="218" width="60" height="58" rx="20" fill="#F4F7F5" stroke="#F4F7F5"/>
         <circle cx="144" cy="247" r="7" fill="#DA291C" stroke="none"/>
       </g>
 
       <g id="adult-member" aria-label="adult-member">
-        <rect x="214" y="153" width="84" height="84" rx="26" fill="#F4F7F5"/>
+        <rect x="214" y="153" width="84" height="84" rx="26" fill="#F4F7F5" stroke="#F4F7F5"/>
         <circle cx="256" cy="195" r="9" fill="#DA291C" stroke="none"/>
       </g>
 
       <g id="older-member" aria-label="older-member">
-        <rect x="338" y="218" width="60" height="58" rx="20" fill="#F4F7F5"/>
+        <rect x="338" y="218" width="60" height="58" rx="20" fill="#F4F7F5" stroke="#F4F7F5"/>
         <circle cx="368" cy="247" r="7" fill="#DA291C" stroke="none"/>
       </g>
 

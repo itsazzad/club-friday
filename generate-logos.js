@@ -21,7 +21,7 @@ function tokenValues(variant) {
     TITLE: variant.title,
     DESCRIPTION: variant.description,
     STRUCTURE: artwork.structure,
-    BADGE_OUTLINE: artwork.outline ? ` stroke="${artwork.outline}"` : '',
+    BADGE_OUTLINE: artwork.outline || artwork.structure,
     YOUNGER: artwork.badges.younger,
     ADULT: artwork.badges.adult,
     OLDER: artwork.badges.older,
@@ -35,12 +35,12 @@ function tokenValues(variant) {
     SYMBOL: artwork.symbol,
     TEXT_FAMILY: text.family,
     MOTTO_SIZE: text.mottoSize,
-    MOTTO_SPACING: text.mottoSpacing ? ` letter-spacing="${text.mottoSpacing}"` : '',
+    MOTTO_SPACING: text.mottoSpacing || 0,
     MOTTO_MARKUP: mottoMarkup(text),
     NAME: text.name,
     NAME_FILL: text.nameFill,
     NAME_SIZE: text.nameSize,
-    NAME_SPACING: text.nameSpacing ? ` letter-spacing="${text.nameSpacing}"` : ''
+    NAME_SPACING: text.nameSpacing || 0
   };
   return value;
 }

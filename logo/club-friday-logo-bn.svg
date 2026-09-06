@@ -6,17 +6,17 @@
       <path fill="none" stroke="#17324D" d="M103 333a178 178 0 1 1 306 0"/>
 
       <g id="younger-member" aria-label="younger-member">
-        <rect x="114" y="218" width="60" height="58" rx="20" fill="#F2B544"/>
+        <rect x="114" y="218" width="60" height="58" rx="20" fill="#F2B544" stroke="#17324D"/>
         <circle cx="144" cy="247" r="7" fill="#FFF4D6" stroke="none"/>
       </g>
 
       <g id="adult-member" aria-label="adult-member">
-        <rect x="214" y="153" width="84" height="84" rx="26" fill="#E96B50"/>
+        <rect x="214" y="153" width="84" height="84" rx="26" fill="#E96B50" stroke="#17324D"/>
         <circle cx="256" cy="195" r="9" fill="#FFF4D6" stroke="none"/>
       </g>
 
       <g id="older-member" aria-label="older-member">
-        <rect x="338" y="218" width="60" height="58" rx="20" fill="#4E9B83"/>
+        <rect x="338" y="218" width="60" height="58" rx="20" fill="#4E9B83" stroke="#17324D"/>
         <circle cx="368" cy="247" r="7" fill="#FFF4D6" stroke="none"/>
       </g>
 
@@ -36,10 +36,10 @@
     </defs>
 
     <g font-family="Kohinoor Bangla, Bangla Sangam MN, sans-serif" text-anchor="middle">
-      <text font-size="14" font-weight="700">
+      <text font-size="14" font-weight="700" letter-spacing="0">
         <textPath href="#motto-arc" xlink:href="#motto-arc" startOffset="50%"><tspan fill="#17324D">ন্যায্যতা</tspan><tspan dx="5" fill="#17324D">•</tspan><tspan dx="5" fill="#28705D">ঐক্য</tspan><tspan dx="5" fill="#28705D">•</tspan><tspan dx="5" fill="#A86B00">সম্মান</tspan></textPath>
       </text>
-      <text fill="#17324D" font-size="28" font-weight="800">
+      <text fill="#17324D" font-size="28" font-weight="800" letter-spacing="0">
         <textPath href="#name-arc" xlink:href="#name-arc" startOffset="50%">ক্লাব ফ্রাইডে</textPath>
       </text>
     </g>
