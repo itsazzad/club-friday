@@ -2,29 +2,30 @@
   <title id="title">Club Friday one-color logo</title>
   <desc id="desc">Single-color Club Friday community logo for stamps, embroidery, and very small applications.</desc>
 
-  <g fill="#17324D" stroke="#17324D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
-    <path fill="none" d="M103 333a178 178 0 1 1 306 0"/>
+  <g stroke="#17324D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="none" stroke="#17324D" d="M103 333a178 178 0 1 1 306 0"/>
 
-    <g id="younger-member" aria-label="Younger member">
+    <g id="younger-member" aria-label="younger-member">
       <rect x="114" y="218" width="60" height="58" rx="20"/>
     </g>
 
-    <g id="adult-member" aria-label="Adult member">
+    <g id="adult-member" aria-label="adult-member">
       <rect x="214" y="153" width="84" height="84" rx="26"/>
     </g>
 
-    <g id="older-member" aria-label="Older member">
+    <g id="older-member" aria-label="older-member">
       <rect x="338" y="218" width="60" height="58" rx="20"/>
     </g>
 
-    <circle cx="256" cy="316" r="55" fill="none"/>
-    <path fill="none" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
+    <circle cx="256" cy="316" r="55" fill="none" stroke="#17324D" stroke-width="13"/>
+    <path fill="none" stroke="#17324D" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
 
-    <path fill="none" stroke-width="8" d="M181 303h-18M186 293l-15-10M186 313l-15 10M331 303h18M326 293l15-10M326 313l15 10"/>
-    <path fill="none" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
+    <path fill="none" stroke="#17324D" stroke-width="8" d="M181 303h-18M186 293l-15-10M186 313l-15 10M331 303h18M326 293l15-10M326 313l15 10"/>
 
-    <path d="m96 364 8 8-8 8-8-8z"/>
-    <path d="m416 364 8 8-8 8-8-8z"/>
+    <path fill="none" stroke="#17324D" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
+
+    <path fill="#17324D" stroke="#17324D" stroke-width="6" d="m96 364 8 8-8 8-8-8z"/>
+    <path fill="#17324D" stroke="#17324D" stroke-width="6" d="m416 364 8 8-8 8-8-8z"/>
   </g>
 
   <defs>
@@ -32,11 +33,11 @@
     <path id="name-arc" d="M136 426 Q256 400 376 426"/>
   </defs>
 
-  <g fill="#17324D" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
+  <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
     <text font-size="14" font-weight="700" letter-spacing="1.5">
       <textPath href="#motto-arc" xlink:href="#motto-arc" startOffset="50%">JUSTICE • UNITY • RESPECT</textPath>
     </text>
-    <text font-size="32" font-weight="800" letter-spacing="4">
+    <text fill="#17324D" font-size="32" font-weight="800" letter-spacing="4">
       <textPath href="#name-arc" xlink:href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
     </text>
   </g>

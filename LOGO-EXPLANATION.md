@@ -132,3 +132,7 @@ For stamps, embroidery, engraving, and very small applications, use `club-friday
 - `club-friday-logo-one-color.png` - the single-color transparent PNG logo for production applications.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
+- `logo-template.svg` - the shared SVG structure used by the generator.
+- `logo-variants.json` - colors, language, and production settings for each generated variant.
+- `generate-logos.js` - the dependency-free SVG generator.
+- `generate-logos.sh` - the command that generates all SVGs and PNGs.

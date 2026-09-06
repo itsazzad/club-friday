@@ -70,12 +70,20 @@ Bangla logo files: [light SVG](club-friday-logo-bn.svg), [dark SVG](club-friday-
 
 ### Export PNGs
 
-Regenerate all six transparent PNGs at 1024 x 1000 with:
+The SVG variants are generated from [logo-template.svg](logo-template.svg) using the variant data in [logo-variants.json](logo-variants.json). Regenerate all six SVGs and their transparent PNGs at 1024 x 1000 with:
+
+```sh
+./generate-logos.sh
+```
+
+To regenerate only the PNGs from the existing SVGs:
 
 ```sh
 ./export-pngs.sh
 ```
 
 The command requires Inkscape, available on macOS with `brew install --cask inkscape`.
+
+The generator requires Node.js and uses no external packages.
 
 Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.

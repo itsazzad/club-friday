@@ -1,0 +1,93 @@
+[
+  {
+    "file": "club-friday-logo.svg",
+    "title": "Club Friday multi-sport community logo",
+    "description": "Club Friday community logo: three abstract membership badges represent younger, adult, and older members surrounding a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, justice, and service to society.",
+    "motto": ["JUSTICE", "UNITY", "RESPECT"],
+    "colors": {
+      "structure": "#17324D",
+      "unity": "#28705D",
+      "gold": "#A86B00",
+      "younger": "#F2B544",
+      "adult": "#E96B50",
+      "older": "#4E9B83",
+      "inner": "#FFF4D6",
+      "text": "#17324D"
+    }
+  },
+  {
+    "file": "club-friday-logo-dark.svg",
+    "title": "Club Friday multi-sport community logo - dark background version",
+    "description": "Club Friday community logo for dark backgrounds: three abstract membership badges represent younger, adult, and older members surrounding a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, justice, and service to society.",
+    "motto": ["JUSTICE", "UNITY", "RESPECT"],
+    "colors": {
+      "structure": "#F4F7F5",
+      "outline": "#142331",
+      "unity": "#63B89B",
+      "gold": "#D9A441",
+      "younger": "#F2B544",
+      "adult": "#E96B50",
+      "older": "#4E9B83",
+      "inner": "#FFF4D6",
+      "text": "#F4F7F5"
+    }
+  },
+  {
+    "file": "club-friday-logo-bn.svg",
+    "title": "ক্লাব ফ্রাইডে বহু-ক্রীড়া সম্প্রদায়ের লোগো",
+    "description": "ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো: তিনটি বিমূর্ত সদস্য-ব্যাজ তরুণ, প্রাপ্তবয়স্ক ও প্রবীণ সদস্যদের একটি সরল বহুক্রীড়া বলের চারপাশে উপস্থাপন করে।",
+    "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"],
+    "bangla": true,
+    "colors": {
+      "structure": "#17324D",
+      "unity": "#28705D",
+      "gold": "#A86B00",
+      "younger": "#F2B544",
+      "adult": "#E96B50",
+      "older": "#4E9B83",
+      "inner": "#FFF4D6",
+      "text": "#17324D"
+    }
+  },
+  {
+    "file": "club-friday-logo-dark-bn.svg",
+    "title": "ক্লাব ফ্রাইডে বহু-ক্রীড়া সম্প্রদায়ের লোগো - গাঢ় পটভূমির সংস্করণ",
+    "description": "গাঢ় পটভূমির জন্য ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো: তিনটি বিমূর্ত সদস্য-ব্যাজ একটি সরল বহুক্রীড়া বলকে ঘিরে রয়েছে।",
+    "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"],
+    "bangla": true,
+    "colors": {
+      "structure": "#F4F7F5",
+      "outline": "#142331",
+      "unity": "#63B89B",
+      "gold": "#D9A441",
+      "younger": "#F2B544",
+      "adult": "#E96B50",
+      "older": "#4E9B83",
+      "inner": "#FFF4D6",
+      "text": "#F4F7F5"
+    }
+  },
+  {
+    "file": "club-friday-logo-jersey.svg",
+    "title": "Club Friday jersey logo",
+    "description": "Single-color Club Friday community logo for the red jersey color #DA291C. White artwork provides contrast, with jersey-red cutouts inside the member badges and ball.",
+    "motto": ["JUSTICE", "UNITY", "RESPECT"],
+    "jersey": true,
+    "colors": {
+      "structure": "#F4F7F5",
+      "inner": "#DA291C",
+      "text": "#F4F7F5"
+    }
+  },
+  {
+    "file": "club-friday-logo-one-color.svg",
+    "title": "Club Friday one-color logo",
+    "description": "Single-color Club Friday community logo for stamps, embroidery, and very small applications.",
+    "motto": ["JUSTICE", "UNITY", "RESPECT"],
+    "oneColor": true,
+    "colors": {
+      "structure": "#17324D",
+      "text": "#17324D"
+    }
+  }
+]
