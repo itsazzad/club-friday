@@ -136,3 +136,5 @@ For stamps, embroidery, engraving, and very small applications, use `logo/club-f
 - `logo-variants.json` - reusable artwork/text presets and per-variant metadata.
 - `generate-logos.js` - the dependency-free SVG generator.
 - `generate-logos.sh` - the command that generates all SVGs and PNGs.
+
+The template keeps text editable for maintenance. The build converts generated logo text to vector paths for consistent SVG and PNG output across rendering environments.
