@@ -57,6 +57,7 @@ The logo uses six expressive colors plus warm cream as a neutral support color. 
 ### Background Variants
 
 - Use [club-friday-logo.svg](club-friday-logo.svg) on white, cream, or other light backgrounds. This is the standard light-background version.
+- Use [club-friday-logo.svg](club-friday-logo.svg) on the `#FFF` white jersey. Its navy, teal, gold, yellow, coral, and green details are designed for light backgrounds.
 - Use [club-friday-logo-dark.svg](club-friday-logo-dark.svg) on black, navy, or other dark backgrounds. It replaces the dark structural colors with soft white and uses brighter teal and gold accents.
 - Use [club-friday-logo-jersey.svg](club-friday-logo-jersey.svg) on the `#DA291C` red jersey. It is a high-contrast white version with jersey-red cutouts inside the badges and ball.
 - These variants have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.

@@ -112,6 +112,8 @@ Both variants can be used in print and digital applications, including websites,
 
 The `club-friday-logo-jersey.svg` variant is provided for the club's `#DA291C` red jersey. It uses white artwork with jersey-red cutouts so the logo remains visible on fabric; use this application variant instead of the general full-color logo on that jersey.
 
+For the club's `#FFF` white jersey, use `club-friday-logo.svg` or its PNG export. The standard light-background logo preserves the full color meaning and has sufficient separation on white fabric.
+
 ## Files
 
 - `club-friday-logo.svg` - the transparent vector logo.
