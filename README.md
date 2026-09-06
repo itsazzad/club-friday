@@ -70,7 +70,7 @@ Bangla logo files: [light SVG](logo/club-friday-logo-bn.svg), [dark SVG](logo/cl
 
 ### Export PNGs
 
-The SVG variants are generated from [logo-template.svg](logo-template.svg) using the variant data in [logo-variants.json](logo-variants.json). Regenerate all six SVGs and their transparent PNGs at 1024 x 1000 with:
+The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared geometry and SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets plus the small per-variant metadata. Regenerate all six SVGs and their transparent PNGs at 1024 x 1000 with:
 
 ```sh
 ./generate-logos.sh

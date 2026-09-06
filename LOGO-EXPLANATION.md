@@ -133,6 +133,6 @@ For stamps, embroidery, engraving, and very small applications, use `logo/club-f
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
 - `logo-template.svg` - the shared SVG structure used by the generator.
-- `logo-variants.json` - colors, language, and production settings for each generated variant.
+- `logo-variants.json` - reusable artwork/text presets and per-variant metadata.
 - `generate-logos.js` - the dependency-free SVG generator.
 - `generate-logos.sh` - the command that generates all SVGs and PNGs.

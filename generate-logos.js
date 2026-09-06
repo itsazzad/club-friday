@@ -5,7 +5,7 @@ const path = require('path');
 const root = __dirname;
 const outputDir = path.join(root, 'logo');
 const template = fs.readFileSync(path.join(root, 'logo-template.svg'), 'utf8');
-const variants = JSON.parse(fs.readFileSync(path.join(root, 'logo-variants.json'), 'utf8'));
+const config = JSON.parse(fs.readFileSync(path.join(root, 'logo-variants.json'), 'utf8'));
 
 function mottoMarkup(settings) {
   return settings.motto.map((word, index) => {
@@ -15,8 +15,8 @@ function mottoMarkup(settings) {
 }
 
 function tokenValues(variant) {
-  const artwork = variant.artwork;
-  const text = variant.text;
+  const artwork = config.artworkPresets[variant.artwork];
+  const text = config.textPresets[variant.text];
   const value = {
     TITLE: variant.title,
     DESCRIPTION: variant.description,
@@ -52,7 +52,7 @@ function render(variant) {
   );
 }
 
-for (const variant of variants) {
+for (const variant of config.variants) {
   fs.writeFileSync(path.join(outputDir, variant.file), render(variant));
   console.log(`Created logo/${variant.file}`);
 }
