@@ -2,45 +2,45 @@
   <title id="title">Club Friday jersey logo</title>
   <desc id="desc">Single-color Club Friday community logo for the red jersey color #DA291C. White artwork provides contrast, with jersey-red cutouts inside the member badges and ball.</desc>
 
-  <g stroke="#F4F7F5" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
-    <path fill="none" stroke="#F4F7F5" d="M103 333a178 178 0 1 1 306 0"/>
+    <g stroke="#F4F7F5" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+      <path fill="none" stroke="#F4F7F5" d="M103 333a178 178 0 1 1 306 0"/>
 
-    <g id="younger-member" aria-label="younger-member">
-      <rect x="114" y="218" width="60" height="58" rx="20" fill="#F4F7F5"/>
-      <circle cx="144" cy="247" r="7" fill="#DA291C" stroke="none"/>
+      <g id="younger-member" aria-label="younger-member">
+        <rect x="114" y="218" width="60" height="58" rx="20" fill="#F4F7F5"/>
+        <circle cx="144" cy="247" r="7" fill="#DA291C" stroke="none"/>
+      </g>
+
+      <g id="adult-member" aria-label="adult-member">
+        <rect x="214" y="153" width="84" height="84" rx="26" fill="#F4F7F5"/>
+        <circle cx="256" cy="195" r="9" fill="#DA291C" stroke="none"/>
+      </g>
+
+      <g id="older-member" aria-label="older-member">
+        <rect x="338" y="218" width="60" height="58" rx="20" fill="#F4F7F5"/>
+        <circle cx="368" cy="247" r="7" fill="#DA291C" stroke="none"/>
+      </g>
+
+      <circle cx="256" cy="316" r="55" fill="#F4F7F5" stroke="#F4F7F5" stroke-width="12"/>
+      <path fill="none" stroke="#DA291C" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
+
+      <path fill="none" stroke="#F4F7F5" stroke-width="8" d="M181 303h-18M186 293l-15-10M186 313l-15 10M331 303h18M326 293l15-10M326 313l15 10"/>
+      <path fill="none" stroke="#F4F7F5" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
+
+      <path fill="#F4F7F5" stroke="#F4F7F5" stroke-width="6" d="m96 364 8 8-8 8-8-8z"/>
+      <path fill="#F4F7F5" stroke="#F4F7F5" stroke-width="6" d="m416 364 8 8-8 8-8-8z"/>
     </g>
 
-    <g id="adult-member" aria-label="adult-member">
-      <rect x="214" y="153" width="84" height="84" rx="26" fill="#F4F7F5"/>
-      <circle cx="256" cy="195" r="9" fill="#DA291C" stroke="none"/>
+    <defs>
+      <path id="motto-arc" d="M121 155 Q256 58 391 155"/>
+      <path id="name-arc" d="M136 426 Q256 400 376 426"/>
+    </defs>
+
+    <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
+      <text font-size="14" font-weight="700" letter-spacing="1.5">
+        <textPath href="#motto-arc" xlink:href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">JUSTICE</tspan><tspan dx="5" fill="#F4F7F5">•</tspan><tspan dx="5" fill="#F4F7F5">UNITY</tspan><tspan dx="5" fill="#F4F7F5">•</tspan><tspan dx="5" fill="#F4F7F5">RESPECT</tspan></textPath>
+      </text>
+      <text fill="#F4F7F5" font-size="32" font-weight="800" letter-spacing="4">
+        <textPath href="#name-arc" xlink:href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
+      </text>
     </g>
-
-    <g id="older-member" aria-label="older-member">
-      <rect x="338" y="218" width="60" height="58" rx="20" fill="#F4F7F5"/>
-      <circle cx="368" cy="247" r="7" fill="#DA291C" stroke="none"/>
-    </g>
-
-    <circle cx="256" cy="316" r="55" fill="#F4F7F5" stroke="#F4F7F5" stroke-width="12"/>
-    <path fill="none" stroke="#DA291C" stroke-width="9" d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"/>
-
-    <path fill="none" stroke="#F4F7F5" stroke-width="8" d="M181 303h-18M186 293l-15-10M186 313l-15 10M331 303h18M326 293l15-10M326 313l15 10"/>
-    <path fill="none" stroke="#F4F7F5" d="M91 395c48 48 105 72 165 72s117-24 165-72"/>
-
-    <path fill="#F4F7F5" stroke="#F4F7F5" stroke-width="6" d="m96 364 8 8-8 8-8-8z"/>
-    <path fill="#F4F7F5" stroke="#F4F7F5" stroke-width="6" d="m416 364 8 8-8 8-8-8z"/>
-  </g>
-
-  <defs>
-    <path id="motto-arc" d="M121 155 Q256 58 391 155"/>
-    <path id="name-arc" d="M136 426 Q256 400 376 426"/>
-  </defs>
-
-  <g font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" text-anchor="middle">
-    <text font-size="14" font-weight="700" letter-spacing="1.5">
-      <textPath href="#motto-arc" xlink:href="#motto-arc" startOffset="50%"><tspan fill="#F4F7F5">JUSTICE</tspan><tspan dx="5" fill="#F4F7F5">•</tspan><tspan dx="5" fill="#F4F7F5">UNITY</tspan><tspan dx="5" fill="#F4F7F5">•</tspan><tspan dx="5" fill="#F4F7F5">RESPECT</tspan></textPath>
-    </text>
-    <text fill="#F4F7F5" font-size="32" font-weight="800" letter-spacing="4">
-      <textPath href="#name-arc" xlink:href="#name-arc" startOffset="50%">CLUB FRIDAY</textPath>
-    </text>
-  </g>
 </svg>
