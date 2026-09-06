@@ -86,4 +86,6 @@ The command requires Inkscape, available on macOS with `brew install --cask inks
 
 The generator requires Node.js and uses no external packages.
 
+The generator validates preset references before writing files, creates the `logo/` output directory when needed, and escapes text metadata for valid XML. The PNG exporter discovers every SVG in `logo/` automatically.
+
 Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.

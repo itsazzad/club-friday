@@ -7,10 +7,42 @@ const outputDir = path.join(root, 'logo');
 const template = fs.readFileSync(path.join(root, 'logo-template.svg'), 'utf8');
 const config = JSON.parse(fs.readFileSync(path.join(root, 'logo-variants.json'), 'utf8'));
 
+fs.mkdirSync(outputDir, { recursive: true });
+
+function escapeXml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&apos;');
+}
+
+function validateConfig() {
+  if (!Array.isArray(config.variants) || !config.artworkPresets || !config.textPresets) {
+    throw new Error('logo-variants.json must define artworkPresets, textPresets, and variants');
+  }
+  const files = new Set();
+  for (const variant of config.variants) {
+    if (!variant.file || files.has(variant.file)) {
+      throw new Error(`Duplicate or missing variant file: ${variant.file || '<empty>'}`);
+    }
+    if (!config.artworkPresets[variant.artwork]) {
+      throw new Error(`Unknown artwork preset "${variant.artwork}" for ${variant.file}`);
+    }
+    if (!config.textPresets[variant.text]) {
+      throw new Error(`Unknown text preset "${variant.text}" for ${variant.file}`);
+    }
+    files.add(variant.file);
+  }
+}
+
+validateConfig();
+
 function mottoMarkup(settings) {
   return settings.motto.map((word, index) => {
-    const separator = index === 0 ? '' : `<tspan dx="5" fill="${settings.mottoColors[index - 1]}">•</tspan>`;
-    return `${separator}<tspan${index ? ' dx="5"' : ''} fill="${settings.mottoColors[index]}">${word}</tspan>`;
+    const separator = index === 0 ? '' : `<tspan dx="5" fill="${escapeXml(settings.mottoColors[index - 1])}">•</tspan>`;
+    return `${separator}<tspan${index ? ' dx="5"' : ''} fill="${escapeXml(settings.mottoColors[index])}">${escapeXml(word)}</tspan>`;
   }).join('');
 }
 
@@ -18,8 +50,8 @@ function tokenValues(variant) {
   const artwork = config.artworkPresets[variant.artwork];
   const text = config.textPresets[variant.text];
   const value = {
-    TITLE: variant.title,
-    DESCRIPTION: variant.description,
+    TITLE: escapeXml(variant.title),
+    DESCRIPTION: escapeXml(variant.description),
     STRUCTURE: artwork.structure,
     BADGE_OUTLINE: artwork.outline || artwork.structure,
     YOUNGER: artwork.badges.younger,
@@ -37,7 +69,7 @@ function tokenValues(variant) {
     MOTTO_SIZE: text.mottoSize,
     MOTTO_SPACING: text.mottoSpacing || 0,
     MOTTO_MARKUP: mottoMarkup(text),
-    NAME: text.name,
+    NAME: escapeXml(text.name),
     NAME_FILL: text.nameFill,
     NAME_SIZE: text.nameSize,
     NAME_SPACING: text.nameSpacing || 0
