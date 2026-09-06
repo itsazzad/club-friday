@@ -3,91 +3,42 @@
     "file": "club-friday-logo.svg",
     "title": "Club Friday multi-sport community logo",
     "description": "Club Friday community logo: three abstract membership badges represent younger, adult, and older members surrounding a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, justice, and service to society.",
-    "motto": ["JUSTICE", "UNITY", "RESPECT"],
-    "colors": {
-      "structure": "#17324D",
-      "unity": "#28705D",
-      "gold": "#A86B00",
-      "younger": "#F2B544",
-      "adult": "#E96B50",
-      "older": "#4E9B83",
-      "inner": "#FFF4D6",
-      "text": "#17324D"
-    }
+    "artwork": {"structure": "#17324D", "badges": {"younger": "#F2B544", "adult": "#E96B50", "older": "#4E9B83"}, "badgeInner": "#FFF4D6", "ball": {"fill": "#FFF4D6", "stroke": "#A86B00", "panel": "#A86B00"}, "action": "#E96B50", "joining": "#28705D", "symbol": "#A86B00"},
+    "text": {"family": "Avenir Next, Trebuchet MS, Arial, sans-serif", "motto": ["JUSTICE", "UNITY", "RESPECT"], "mottoColors": ["#17324D", "#28705D", "#A86B00"], "name": "CLUB FRIDAY", "nameFill": "#17324D", "mottoSize": 14, "nameSize": 32, "mottoSpacing": 1.5, "nameSpacing": 4}
   },
   {
     "file": "club-friday-logo-dark.svg",
     "title": "Club Friday multi-sport community logo - dark background version",
     "description": "Club Friday community logo for dark backgrounds: three abstract membership badges represent younger, adult, and older members surrounding a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, justice, and service to society.",
-    "motto": ["JUSTICE", "UNITY", "RESPECT"],
-    "colors": {
-      "structure": "#F4F7F5",
-      "outline": "#142331",
-      "unity": "#63B89B",
-      "gold": "#D9A441",
-      "younger": "#F2B544",
-      "adult": "#E96B50",
-      "older": "#4E9B83",
-      "inner": "#FFF4D6",
-      "text": "#F4F7F5"
-    }
+    "artwork": {"structure": "#F4F7F5", "outline": "#142331", "badges": {"younger": "#F2B544", "adult": "#E96B50", "older": "#4E9B83"}, "badgeInner": "#FFF4D6", "ball": {"fill": "#FFF4D6", "stroke": "#D9A441", "panel": "#D9A441"}, "action": "#E96B50", "joining": "#63B89B", "symbol": "#D9A441"},
+    "text": {"family": "Avenir Next, Trebuchet MS, Arial, sans-serif", "motto": ["JUSTICE", "UNITY", "RESPECT"], "mottoColors": ["#F4F7F5", "#63B89B", "#F0C75E"], "name": "CLUB FRIDAY", "nameFill": "#F4F7F5", "mottoSize": 14, "nameSize": 32, "mottoSpacing": 1.5, "nameSpacing": 4}
   },
   {
     "file": "club-friday-logo-bn.svg",
     "title": "ক্লাব ফ্রাইডে বহু-ক্রীড়া সম্প্রদায়ের লোগো",
     "description": "ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো: তিনটি বিমূর্ত সদস্য-ব্যাজ তরুণ, প্রাপ্তবয়স্ক ও প্রবীণ সদস্যদের একটি সরল বহুক্রীড়া বলের চারপাশে উপস্থাপন করে।",
-    "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"],
-    "bangla": true,
-    "colors": {
-      "structure": "#17324D",
-      "unity": "#28705D",
-      "gold": "#A86B00",
-      "younger": "#F2B544",
-      "adult": "#E96B50",
-      "older": "#4E9B83",
-      "inner": "#FFF4D6",
-      "text": "#17324D"
-    }
+    "artwork": {"structure": "#17324D", "badges": {"younger": "#F2B544", "adult": "#E96B50", "older": "#4E9B83"}, "badgeInner": "#FFF4D6", "ball": {"fill": "#FFF4D6", "stroke": "#A86B00", "panel": "#A86B00"}, "action": "#E96B50", "joining": "#28705D", "symbol": "#A86B00"},
+    "text": {"family": "Kohinoor Bangla, Bangla Sangam MN, sans-serif", "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"], "mottoColors": ["#17324D", "#28705D", "#A86B00"], "name": "ক্লাব ফ্রাইডে", "nameFill": "#17324D", "mottoSize": 14, "nameSize": 28}
   },
   {
     "file": "club-friday-logo-dark-bn.svg",
     "title": "ক্লাব ফ্রাইডে বহু-ক্রীড়া সম্প্রদায়ের লোগো - গাঢ় পটভূমির সংস্করণ",
     "description": "গাঢ় পটভূমির জন্য ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো: তিনটি বিমূর্ত সদস্য-ব্যাজ একটি সরল বহুক্রীড়া বলকে ঘিরে রয়েছে।",
-    "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"],
-    "bangla": true,
-    "colors": {
-      "structure": "#F4F7F5",
-      "outline": "#142331",
-      "unity": "#63B89B",
-      "gold": "#D9A441",
-      "younger": "#F2B544",
-      "adult": "#E96B50",
-      "older": "#4E9B83",
-      "inner": "#FFF4D6",
-      "text": "#F4F7F5"
-    }
+    "artwork": {"structure": "#F4F7F5", "outline": "#142331", "badges": {"younger": "#F2B544", "adult": "#E96B50", "older": "#4E9B83"}, "badgeInner": "#FFF4D6", "ball": {"fill": "#FFF4D6", "stroke": "#D9A441", "panel": "#D9A441"}, "action": "#E96B50", "joining": "#63B89B", "symbol": "#D9A441"},
+    "text": {"family": "Kohinoor Bangla, Bangla Sangam MN, sans-serif", "motto": ["ন্যায্যতা", "ঐক্য", "সম্মান"], "mottoColors": ["#F4F7F5", "#63B89B", "#F0C75E"], "name": "ক্লাব ফ্রাইডে", "nameFill": "#F4F7F5", "mottoSize": 14, "nameSize": 28}
   },
   {
     "file": "club-friday-logo-jersey.svg",
     "title": "Club Friday jersey logo",
     "description": "Single-color Club Friday community logo for the red jersey color #DA291C. White artwork provides contrast, with jersey-red cutouts inside the member badges and ball.",
-    "motto": ["JUSTICE", "UNITY", "RESPECT"],
-    "jersey": true,
-    "colors": {
-      "structure": "#F4F7F5",
-      "inner": "#DA291C",
-      "text": "#F4F7F5"
-    }
+    "artwork": {"structure": "#F4F7F5", "badges": {"younger": "#F4F7F5", "adult": "#F4F7F5", "older": "#F4F7F5"}, "badgeInner": "#DA291C", "ball": {"fill": "#F4F7F5", "stroke": "#F4F7F5", "panel": "#DA291C"}, "action": "#F4F7F5", "joining": "#F4F7F5", "symbol": "#F4F7F5"},
+    "text": {"family": "Avenir Next, Trebuchet MS, Arial, sans-serif", "motto": ["JUSTICE", "UNITY", "RESPECT"], "mottoColors": ["#F4F7F5", "#F4F7F5", "#F4F7F5"], "name": "CLUB FRIDAY", "nameFill": "#F4F7F5", "mottoSize": 14, "nameSize": 32, "mottoSpacing": 1.5, "nameSpacing": 4}
   },
   {
     "file": "club-friday-logo-one-color.svg",
     "title": "Club Friday one-color logo",
     "description": "Single-color Club Friday community logo for stamps, embroidery, and very small applications.",
-    "motto": ["JUSTICE", "UNITY", "RESPECT"],
-    "oneColor": true,
-    "colors": {
-      "structure": "#17324D",
-      "text": "#17324D"
-    }
+    "artwork": {"structure": "#17324D", "badges": {"younger": "#17324D", "adult": "#17324D", "older": "#17324D"}, "ball": {"fill": "none", "stroke": "#17324D", "panel": "#17324D"}, "action": "#17324D", "joining": "#17324D", "symbol": "#17324D"},
+    "text": {"family": "Avenir Next, Trebuchet MS, Arial, sans-serif", "motto": ["JUSTICE", "UNITY", "RESPECT"], "mottoColors": ["#17324D", "#17324D", "#17324D"], "name": "CLUB FRIDAY", "nameFill": "#17324D", "mottoSize": 14, "nameSize": 32, "mottoSpacing": 1.5, "nameSpacing": 4}
   }
 ]
