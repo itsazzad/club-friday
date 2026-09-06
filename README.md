@@ -59,14 +59,14 @@ The logo uses six expressive colors plus warm cream as a neutral support color. 
 - Use [club-friday-logo.svg](logo/club-friday-logo.svg) on white, cream, or other light backgrounds. This is the standard light-background version.
 - Use [club-friday-logo.svg](logo/club-friday-logo.svg) on the `#FFF` white jersey. Its navy, teal, gold, yellow, coral, and green details are designed for light backgrounds.
 - Use [club-friday-logo-dark.svg](logo/club-friday-logo-dark.svg) on black, navy, or other dark backgrounds. It replaces the dark structural colors with soft white and uses brighter teal and gold accents.
-- Use [club-friday-logo-jersey.svg](logo/club-friday-logo-jersey.svg) on the `#DA291C` red jersey. It is a high-contrast white version with jersey-red cutouts inside the badges and ball.
+- Use [club-friday-logo-red-jersey.svg](logo/club-friday-logo-red-jersey.svg) on the `#DA291C` red jersey. It is a high-contrast white version with red-jersey cutouts inside the badges and ball.
 - Use [club-friday-logo-one-color.svg](logo/club-friday-logo-one-color.svg) for stamps, embroidery, engraving, and very small applications. It uses one navy ink color and open substrate for the internal details.
 - These variants have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
-Bangla logo files: [light SVG](logo/club-friday-logo-bn.svg), [dark SVG](logo/club-friday-logo-dark-bn.svg), [jersey SVG](logo/club-friday-logo-jersey-bn.svg), [one-color SVG](logo/club-friday-logo-one-color-bn.svg), and matching PNG exports.
+Bangla logo files: [light SVG](logo/club-friday-logo-bn.svg), [dark SVG](logo/club-friday-logo-dark-bn.svg), [red jersey SVG](logo/club-friday-logo-red-jersey-bn.svg), [one-color SVG](logo/club-friday-logo-one-color-bn.svg), and matching PNG exports.
 
 ### Export PNGs
 
