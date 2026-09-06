@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const root = __dirname;
+const outputDir = path.join(root, 'logo');
 const template = fs.readFileSync(path.join(root, 'logo-template.svg'), 'utf8');
 const variants = JSON.parse(fs.readFileSync(path.join(root, 'logo-variants.json'), 'utf8'));
 
@@ -52,6 +53,6 @@ function render(variant) {
 }
 
 for (const variant of variants) {
-  fs.writeFileSync(path.join(root, variant.file), render(variant));
-  console.log(`Created ${variant.file}`);
+  fs.writeFileSync(path.join(outputDir, variant.file), render(variant));
+  console.log(`Created logo/${variant.file}`);
 }

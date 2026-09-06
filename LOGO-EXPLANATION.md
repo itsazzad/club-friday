@@ -69,7 +69,7 @@ The motto follows the upper arc, while the larger club name follows the lower ar
 - **Unity** represents collective action and harmony across ages and backgrounds.
 - **Respect** represents dignity, empathy, fair play, and regard for every member.
 
-These values are inspired by the central principle of Hilf al-Fudul: people joining together to defend justice, especially for those without strong protection or influence. For Club Friday, that spirit is expressed through fair play, mutual care, and practical social work that benefits the community.
+These values are inspired by the central principle of [Hilf al-Fudul](https://en.wikipedia.org/wiki/Hilf_al-Fudul): people joining together to defend justice, especially for those without strong protection or influence. For Club Friday, that spirit is expressed through fair play, mutual care, and practical social work that benefits the community.
 
 ## Color Meaning
 
@@ -103,8 +103,8 @@ The logo should remain recognizable in color, black and white, embroidery, stamp
 
 Two transparent SVG variants are provided:
 
-- `club-friday-logo.svg` is the standard version for white, cream, and other light backgrounds. It uses navy for the main structure and club name.
-- `club-friday-logo-dark.svg` is the high-contrast version for black, navy, and other dark backgrounds. It uses soft white for the outer arc, Justice text, and club name, with brighter teal and gold accents.
+- `logo/club-friday-logo.svg` is the standard version for white, cream, and other light backgrounds. It uses navy for the main structure and club name.
+- `logo/club-friday-logo-dark.svg` is the high-contrast version for black, navy, and other dark backgrounds. It uses soft white for the outer arc, Justice text, and club name, with brighter teal and gold accents.
 
 Both variants use the same proportions, symbols, lettering, and transparent background. Choose the variant according to the background instead of adding a rectangular backing shape.
 
@@ -112,24 +112,24 @@ Both variants can be used in print and digital applications, including websites,
 
 The `club-friday-logo-jersey.svg` variant is provided for the club's `#DA291C` red jersey. It uses white artwork with jersey-red cutouts so the logo remains visible on fabric; use this application variant instead of the general full-color logo on that jersey.
 
-For the club's `#FFF` white jersey, use `club-friday-logo.svg` or its PNG export. The standard light-background logo preserves the full color meaning and has sufficient separation on white fabric.
+For the club's `#FFF` white jersey, use `logo/club-friday-logo.svg` or its PNG export. The standard light-background logo preserves the full color meaning and has sufficient separation on white fabric.
 
-For stamps, embroidery, engraving, and very small applications, use `club-friday-logo-one-color.svg` or its PNG export. It uses one navy ink color; the internal details are simplified to open substrate so the mark remains reproducible without a second ink.
+For stamps, embroidery, engraving, and very small applications, use `logo/club-friday-logo-one-color.svg` or its PNG export. It uses one navy ink color; the internal details are simplified to open substrate so the mark remains reproducible without a second ink.
 
 ## Files
 
-- `club-friday-logo.svg` - the transparent vector logo.
-- `club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
-- `club-friday-logo-bn.svg` - the Bangla transparent vector logo for light backgrounds.
-- `club-friday-logo-dark-bn.svg` - the Bangla transparent vector logo for dark backgrounds.
-- `club-friday-logo-jersey.svg` - the high-contrast transparent vector logo for the red jersey.
-- `club-friday-logo-one-color.svg` - the single-color transparent vector logo for production applications.
-- `club-friday-logo.png` - the English transparent PNG logo for light backgrounds.
-- `club-friday-logo-dark.png` - the English transparent PNG logo for dark backgrounds.
-- `club-friday-logo-bn.png` - the Bangla transparent PNG logo for light backgrounds.
-- `club-friday-logo-dark-bn.png` - the Bangla transparent PNG logo for dark backgrounds.
-- `club-friday-logo-jersey.png` - the high-contrast transparent PNG logo for the red jersey.
-- `club-friday-logo-one-color.png` - the single-color transparent PNG logo for production applications.
+- `logo/club-friday-logo.svg` - the transparent vector logo.
+- `logo/club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
+- `logo/club-friday-logo-bn.svg` - the Bangla transparent vector logo for light backgrounds.
+- `logo/club-friday-logo-dark-bn.svg` - the Bangla transparent vector logo for dark backgrounds.
+- `logo/club-friday-logo-jersey.svg` - the high-contrast transparent vector logo for the red jersey.
+- `logo/club-friday-logo-one-color.svg` - the single-color transparent vector logo for production applications.
+- `logo/club-friday-logo.png` - the English transparent PNG logo for light backgrounds.
+- `logo/club-friday-logo-dark.png` - the English transparent PNG logo for dark backgrounds.
+- `logo/club-friday-logo-bn.png` - the Bangla transparent PNG logo for light backgrounds.
+- `logo/club-friday-logo-dark-bn.png` - the Bangla transparent PNG logo for dark backgrounds.
+- `logo/club-friday-logo-jersey.png` - the high-contrast transparent PNG logo for the red jersey.
+- `logo/club-friday-logo-one-color.png` - the single-color transparent PNG logo for production applications.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
 - `logo-template.svg` - the shared SVG structure used by the generator.
