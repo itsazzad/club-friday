@@ -58,7 +58,8 @@ The logo uses six expressive colors plus warm cream as a neutral support color. 
 
 - Use [club-friday-logo.svg](club-friday-logo.svg) on white, cream, or other light backgrounds. This is the standard light-background version.
 - Use [club-friday-logo-dark.svg](club-friday-logo-dark.svg) on black, navy, or other dark backgrounds. It replaces the dark structural colors with soft white and uses brighter teal and gold accents.
-- Both files have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
+- Use [club-friday-logo-jersey.svg](club-friday-logo-jersey.svg) on the `#DA291C` red jersey. It is a high-contrast white version with jersey-red cutouts inside the badges and ball.
+- These variants have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
@@ -67,7 +68,7 @@ Bangla logo files: [light SVG](club-friday-logo-bn.svg), [dark SVG](club-friday-
 
 ### Export PNGs
 
-Regenerate all four transparent PNGs at 1024 x 1000 with:
+Regenerate all five transparent PNGs at 1024 x 1000 with:
 
 ```sh
 ./export-pngs.sh

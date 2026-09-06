@@ -12,7 +12,8 @@ for source in \
   club-friday-logo.svg \
   club-friday-logo-dark.svg \
   club-friday-logo-bn.svg \
-  club-friday-logo-dark-bn.svg
+  club-friday-logo-dark-bn.svg \
+  club-friday-logo-jersey.svg
  do
   output=${source%.svg}.png
   inkscape "$source" --export-type=png --export-filename="$output" --export-width=1024 --export-height=1000 --export-background-opacity=0
