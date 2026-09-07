@@ -253,7 +253,7 @@
             "description": "স্ট্যাম্প, সূচিকর্ম ও ছোট আকারের ব্যবহারের জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ একরঙা লোগো।",
             "artwork": "oneColor",
             "text": "banglaOneColor",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":0,"nameBackdropWidth":0,"mottoDy":-10,"nameDy":-18}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":-22,"nameDy":-38}
         },
         {
             "file": "club-friday-logo-dark.svg",
