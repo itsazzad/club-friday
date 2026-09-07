@@ -110,6 +110,12 @@
             "nameFill": "#DA291C",
             "mottoSize": 12
         },
+        "banglaDarkOnPaths": {
+            "extends": "banglaBase",
+            "mottoColors": ["#17324D", "#17324D", "#17324D"],
+            "nameFill": "#F4F7F5",
+            "mottoSize": 12
+        },
         "englishDark": {
             "extends": "englishBase",
             "mottoColors": [
@@ -230,7 +236,7 @@
             "title": "ক্লাব ফ্রাইডে লোগো - গাঢ় পটভূমির কাঠামোগত বাঁকের ওপর লেখা",
             "description": "গাঢ় পটভূমির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "dark",
-            "text": "banglaOnPathsDark",
+            "text": "banglaDarkOnPaths",
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
