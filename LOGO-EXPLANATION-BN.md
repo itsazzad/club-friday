@@ -106,12 +106,26 @@
 
 ## ফাইল
 
-- `logo/club-friday-logo-bn.svg` - হালকা পটভূমির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
-- `logo/club-friday-logo-dark-bn.svg` - গাঢ় পটভূমির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
-- `logo/club-friday-logo-red-jersey-bn.svg` - লাল জার্সির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
-- `logo/club-friday-logo-one-color-bn.svg` - একরঙা ব্যবহারের জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
-- `logo/club-friday-logo-bn.png` - হালকা পটভূমির বাংলা PNG লোগো।
-- `logo/club-friday-logo-dark-bn.png` - গাঢ় পটভূমির বাংলা PNG লোগো।
-- `logo/club-friday-logo-red-jersey-bn.png` - লাল জার্সির বাংলা PNG লোগো।
-- `logo/club-friday-logo-one-color-bn.png` - একরঙা ব্যবহারের বাংলা PNG লোগো।
+- `logo/club-friday-logo.svg` - ইংরেজি হালকা পটভূমির টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo-dark.svg` - ইংরেজি গাঢ় পটভূমির টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo-red-jersey.svg` - ইংরেজি লাল জার্সির টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo-one-color.svg` - ইংরেজি একরঙা টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo-bn.svg` - বাংলা হালকা পটভূমির টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo-dark-bn.svg` - বাংলা গাঢ় পটভূমির টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo-red-jersey-bn.svg` - বাংলা লাল জার্সির টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo-one-color-bn.svg` - বাংলা একরঙা টেক্সট-পাথ ভেক্টর লোগো।
+- `logo/club-friday-logo.png` - ইংরেজি হালকা পটভূমির PNG লোগো।
+- `logo/club-friday-logo-dark.png` - ইংরেজি গাঢ় পটভূমির PNG লোগো।
+- `logo/club-friday-logo-bn.png` - বাংলা হালকা পটভূমির PNG লোগো।
+- `logo/club-friday-logo-dark-bn.png` - বাংলা গাঢ় পটভূমির PNG লোগো।
+- `logo/club-friday-logo-red-jersey.png` - ইংরেজি লাল জার্সির PNG লোগো।
+- `logo/club-friday-logo-red-jersey-bn.png` - বাংলা লাল জার্সির PNG লোগো।
+- `logo/club-friday-logo-one-color.png` - ইংরেজি একরঙা PNG লোগো।
+- `logo/club-friday-logo-one-color-bn.png` - বাংলা একরঙা PNG লোগো।
+- `logo-template.svg` - জেনারেটরের যৌথ SVG কাঠামো।
+- `logo-variants.json` - পুনর্ব্যবহারযোগ্য রঙ, লেখা এবং ভ্যারিয়েন্টের তথ্য।
+- `generate-logos.js` - SVG তৈরির প্যাকেজবিহীন জেনারেটর।
+- `generate-logos.sh` - সব SVG ও PNG তৈরির কমান্ড।
 - `README.md` - ক্লাবের মূল বিবরণ ও খেলাধুলার আগ্রহ।
+
+রক্ষণাবেক্ষণের জন্য টেমপ্লেটে লেখা সম্পাদনাযোগ্য রাখা হয়। বিল্ডের সময় SVG ও PNG-তে একই টাইপোগ্রাফি নিশ্চিত করতে লেখা ভেক্টর পাথে রূপান্তরিত হয়।

@@ -113,6 +113,14 @@ The official set uses a shared path-text composition in light, dark, red-jersey,
 - `logo/club-friday-logo-dark-bn.svg` - the Bangla dark-background text-on-paths variant.
 - `logo/club-friday-logo-red-jersey-bn.svg` - the Bangla red-jersey text-on-paths variant.
 - `logo/club-friday-logo-one-color-bn.svg` - the Bangla one-color text-on-paths variant.
+- `logo/club-friday-logo.png` - the English light-background PNG export.
+- `logo/club-friday-logo-dark.png` - the English dark-background PNG export.
+- `logo/club-friday-logo-red-jersey.png` - the English red-jersey PNG export.
+- `logo/club-friday-logo-one-color.png` - the English one-color PNG export.
+- `logo/club-friday-logo-bn.png` - the Bangla light-background PNG export.
+- `logo/club-friday-logo-dark-bn.png` - the Bangla dark-background PNG export.
+- `logo/club-friday-logo-red-jersey-bn.png` - the Bangla red-jersey PNG export.
+- `logo/club-friday-logo-one-color-bn.png` - the Bangla one-color PNG export.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
 - `logo-template.svg` - the shared SVG structure used by the generator.
