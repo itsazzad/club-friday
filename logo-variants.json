@@ -119,6 +119,15 @@
             ],
             "nameFill": "#17324D"
         },
+        "englishOnPaths": {
+            "extends": "englishBase",
+            "mottoColors": [
+                "#F4F7F5",
+                "#F4F7F5",
+                "#F4F7F5"
+            ],
+            "nameFill": "#F4F7F5"
+        },
         "banglaBase": {
             "family": "Kohinoor Bangla, Bangla Sangam MN, sans-serif",
             "motto": [
@@ -180,10 +189,10 @@
             "title": "Club Friday logo with lettering above the structural paths",
             "description": "Club Friday community logo with the motto and club name positioned above the upper framing arc and lower joining arc.",
             "artwork": "light",
-            "text": "englishLight",
+            "text": "englishOnPaths",
             "paths": {
-                "motto": "M121 143 Q256 46 391 143",
-                "name": "M136 410 Q256 384 376 410"
+                "motto": "M103 333a178 178 0 1 1 306 0",
+                "name": "M91 407c48 48 105 72 165 72s117-24 165-72"
             }
         },
         {
