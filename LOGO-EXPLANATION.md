@@ -101,17 +101,18 @@ The logo should remain recognizable in color, black and white, embroidery, stamp
 
 ## Logo Variants
 
-The official set uses text-above-paths composition in light, dark, red-jersey, and one-color English and Bangla variants. Each variant keeps the same geometry while adapting artwork and text contrast to its application.
+The official set uses a shared path-text composition in light, dark, red-jersey, and one-color English and Bangla variants. Each variant keeps the same geometry while adapting artwork and text contrast to its application.
 
 ## Files
 
-- `logo/club-friday-logo-text-above-paths.svg` - the English variant with lettering above the structural arcs.
-- `logo/club-friday-logo-text-above-paths-red-jersey.svg` - the English red-jersey text-on-paths variant.
-- `logo/club-friday-logo-text-above-paths-one-color.svg` - the English one-color text-on-paths variant.
-- `logo/club-friday-logo-text-above-paths-bn.svg` - the Bangla light-background text-on-paths variant.
-- `logo/club-friday-logo-text-above-paths-dark-bn.svg` - the Bangla dark-background text-on-paths variant.
-- `logo/club-friday-logo-text-above-paths-red-jersey-bn.svg` - the Bangla red-jersey text-on-paths variant.
-- `logo/club-friday-logo-text-above-paths-one-color-bn.svg` - the Bangla one-color text-on-paths variant.
+- `logo/club-friday-logo.svg` - the English light-background text-on-paths variant.
+- `logo/club-friday-logo-dark.svg` - the English dark-background text-on-paths variant.
+- `logo/club-friday-logo-red-jersey.svg` - the English red-jersey text-on-paths variant.
+- `logo/club-friday-logo-one-color.svg` - the English one-color text-on-paths variant.
+- `logo/club-friday-logo-bn.svg` - the Bangla light-background text-on-paths variant.
+- `logo/club-friday-logo-dark-bn.svg` - the Bangla dark-background text-on-paths variant.
+- `logo/club-friday-logo-red-jersey-bn.svg` - the Bangla red-jersey text-on-paths variant.
+- `logo/club-friday-logo-one-color-bn.svg` - the Bangla one-color text-on-paths variant.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
 - `logo-template.svg` - the shared SVG structure used by the generator.

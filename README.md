@@ -56,12 +56,12 @@ The logo uses six expressive colors plus warm cream as a neutral support color. 
 
 ### Logo Variants
 
-The project keeps the text-above-paths family as the official logo set. Choose the light, dark, red-jersey, or one-color variant according to the application; Bangla counterparts are available for each.
+The project keeps the path-text family as the official logo set. Choose the light, dark, red-jersey, or one-color variant according to the application; Bangla counterparts are available for each.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
-Bangla text-above-paths files are available in light, dark, red-jersey, and one-color variants, with matching PNG exports.
+Bangla path-text files are available in light, dark, red-jersey, and one-color variants, with matching PNG exports.
 
 ### Export PNGs
 

@@ -222,7 +222,7 @@
     },
     "variants": [
         {
-            "file": "club-friday-logo-text-above-paths.svg",
+            "file": "club-friday-logo.svg",
             "title": "Club Friday logo with lettering above the structural paths",
             "description": "Club Friday community logo with the motto and club name positioned above the upper framing arc and lower joining arc.",
             "artwork": "light",
@@ -237,7 +237,7 @@
             }
         },
         {
-            "file": "club-friday-logo-text-above-paths-bn.svg",
+            "file": "club-friday-logo-bn.svg",
             "title": "ক্লাব ফ্রাইডে লোগো - কাঠামোগত বাঁকের ওপর লেখা",
             "description": "কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "light",
@@ -245,7 +245,7 @@
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
-            "file": "club-friday-logo-text-above-paths-dark.svg",
+            "file": "club-friday-logo-dark.svg",
             "title": "Club Friday dark logo with lettering above paths",
             "description": "Club Friday dark-background logo with the English motto and club name placed over high-contrast structural path bands.",
             "artwork": "dark",
@@ -253,7 +253,7 @@
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
-            "file": "club-friday-logo-text-above-paths-red-jersey.svg",
+            "file": "club-friday-logo-red-jersey.svg",
             "title": "Club Friday red jersey logo with lettering above paths",
             "description": "Club Friday red jersey logo with the English motto and club name placed over high-contrast structural path bands.",
             "artwork": "redJersey",
@@ -261,7 +261,7 @@
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
-            "file": "club-friday-logo-text-above-paths-one-color.svg",
+            "file": "club-friday-logo-one-color.svg",
             "title": "Club Friday one-color logo with lettering above paths",
             "description": "Single-color Club Friday logo with the English motto and club name placed over production path bands.",
             "artwork": "oneColor",
@@ -269,7 +269,7 @@
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
-            "file": "club-friday-logo-text-above-paths-dark-bn.svg",
+            "file": "club-friday-logo-dark-bn.svg",
             "title": "ক্লাব ফ্রাইডে লোগো - গাঢ় পটভূমির কাঠামোগত বাঁকের ওপর লেখা",
             "description": "গাঢ় পটভূমির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "dark",
@@ -277,7 +277,7 @@
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
-            "file": "club-friday-logo-text-above-paths-red-jersey-bn.svg",
+            "file": "club-friday-logo-red-jersey-bn.svg",
             "title": "ক্লাব ফ্রাইডে লাল জার্সির লোগো - কাঠামোগত বাঁকের ওপর লেখা",
             "description": "#DA291C লাল জার্সির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে লোগো।",
             "artwork": "redJersey",
@@ -285,7 +285,7 @@
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
-            "file": "club-friday-logo-text-above-paths-one-color-bn.svg",
+            "file": "club-friday-logo-one-color-bn.svg",
             "title": "ক্লাব ফ্রাইডে একরঙা লোগো - কাঠামোগত বাঁকের ওপর লেখা",
             "description": "স্ট্যাম্প, সূচিকর্ম ও ছোট আকারের ব্যবহারের জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ একরঙা লোগো।",
             "artwork": "oneColor",

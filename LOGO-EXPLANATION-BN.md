@@ -112,10 +112,10 @@
 
 ## ফাইল
 
-- `logo/club-friday-logo-text-above-paths-bn.svg` - হালকা পটভূমির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
-- `logo/club-friday-logo-text-above-paths-dark-bn.svg` - গাঢ় পটভূমির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
-- `logo/club-friday-logo-text-above-paths-red-jersey-bn.svg` - লাল জার্সির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
-- `logo/club-friday-logo-text-above-paths-one-color-bn.svg` - একরঙা ব্যবহারের জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
+- `logo/club-friday-logo-bn.svg` - হালকা পটভূমির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
+- `logo/club-friday-logo-dark-bn.svg` - গাঢ় পটভূমির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
+- `logo/club-friday-logo-red-jersey-bn.svg` - লাল জার্সির জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
+- `logo/club-friday-logo-one-color-bn.svg` - একরঙা ব্যবহারের জন্য বাংলা টেক্সট-অ্যাবাভ-পাথস ভেক্টর লোগো।
 - `logo/club-friday-logo-dark-bn.svg` - গাঢ় পটভূমির জন্য বাংলা লেখাযুক্ত স্বচ্ছ ভেক্টর লোগো।
 - `logo/club-friday-logo.png` - হালকা পটভূমির জন্য ইংরেজি লেখাযুক্ত স্বচ্ছ PNG লোগো।
 - `logo/club-friday-logo-dark.png` - গাঢ় পটভূমির জন্য ইংরেজি লেখাযুক্ত স্বচ্ছ PNG লোগো।
