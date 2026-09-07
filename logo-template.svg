@@ -40,10 +40,10 @@
 
     <g font-family="{{TEXT_FAMILY}}" text-anchor="middle">
       <text font-size="{{MOTTO_SIZE}}" font-weight="700" letter-spacing="{{MOTTO_SPACING}}">
-        <textPath href="#motto-arc" xlink:href="#motto-arc" startOffset="50%">{{MOTTO_MARKUP}}</textPath>
+        <textPath href="#motto-arc" xlink:href="#motto-arc" startOffset="50%" dy="{{MOTTO_DY}}">{{MOTTO_MARKUP}}</textPath>
       </text>
       <text fill="{{NAME_FILL}}" font-size="{{NAME_SIZE}}" font-weight="800" letter-spacing="{{NAME_SPACING}}">
-        <textPath href="#name-arc" xlink:href="#name-arc" startOffset="50%">{{NAME}}</textPath>
+        <textPath href="#name-arc" xlink:href="#name-arc" startOffset="50%" dy="{{NAME_DY}}">{{NAME}}</textPath>
       </text>
     </g>
 </svg>
