@@ -83,4 +83,4 @@ The generator requires Node.js and Inkscape. Inkscape is available on macOS with
 
 The generator validates preset references before writing files, deep-merges inherited presets, rejects invalid output names, removes stale generated assets, writes SVGs atomically, creates the `logo/` output directory when needed, and escapes text metadata for valid XML. The PNG exporter discovers every SVG in `logo/` automatically and fails clearly when no SVG inputs exist.
 
-Both variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light or dark version according to the background.
+All variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light, dark, red-jersey, or one-color version according to the application.
