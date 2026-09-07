@@ -192,7 +192,9 @@
             "text": "englishOnPaths",
             "paths": {
                 "motto": "M103 333a178 178 0 1 1 306 0",
-                "name": "M91 407c48 48 105 72 165 72s117-24 165-72"
+                "name": "M91 407c48 48 105 72 165 72s117-24 165-72",
+                "mottoBackdropWidth": 24,
+                "nameBackdropWidth": 44
             }
         },
         {

@@ -90,7 +90,11 @@ function tokenValues(variant) {
     NAME_SIZE: text.nameSize,
     NAME_SPACING: text.nameSpacing || 0,
     MOTTO_PATH: escapeXml(variant.paths?.motto || 'M121 155 Q256 58 391 155'),
-    NAME_PATH: escapeXml(variant.paths?.name || 'M136 426 Q256 400 376 426')
+    NAME_PATH: escapeXml(variant.paths?.name || 'M136 426 Q256 400 376 426'),
+    MOTTO_BACKDROP: artwork.structure,
+    NAME_BACKDROP: artwork.joining,
+    MOTTO_BACKDROP_WIDTH: variant.paths?.mottoBackdropWidth || 0,
+    NAME_BACKDROP_WIDTH: variant.paths?.nameBackdropWidth || 0
   };
   return value;
 }
