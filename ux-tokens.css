@@ -1,0 +1,50 @@
+:root {
+  /* Brand palette */
+  --cf-navy: #17324D;
+  --cf-teal: #28705D;
+  --cf-gold: #A86B00;
+  --cf-yellow: #F2B544;
+  --cf-coral: #E96B50;
+  --cf-green: #4E9B83;
+  --cf-cream: #FFF4D6;
+  --cf-ice: #F4F7F5;
+  --cf-night: #142331;
+
+  /* UX semantic tokens */
+  --cf-color-primary: #17324D;
+  --cf-color-primary-hover: #0F2437;
+  --cf-color-secondary: #28705D;
+  --cf-color-secondary-hover: #225E4E;
+  --cf-color-accent: #A86B00;
+  --cf-color-accent-soft: #F2B544;
+  --cf-color-action-warm: #E96B50;
+  --cf-color-success: #4E9B83;
+  --cf-color-bg-base: #FFF4D6;
+  --cf-color-bg-surface: #F4F7F5;
+  --cf-color-text-primary: #17324D;
+  --cf-color-text-on-dark: #F4F7F5;
+  --cf-color-border: #17324D;
+
+  /* Status colors */
+  --cf-color-info: #28705D;
+  --cf-color-warning: #A86B00;
+  --cf-color-alert: #E96B50;
+  --cf-color-success-strong: #4E9B83;
+
+  /* Dark mode */
+  --cf-dark-bg: #142331;
+  --cf-dark-bg-elevated: #1B2E3D;
+  --cf-dark-text: #F4F7F5;
+  --cf-dark-text-muted: #D9E3E1;
+  --cf-dark-secondary: #63B89B;
+  --cf-dark-accent: #F2B544;
+}
+
+/*
+  UX guidance:
+  - Use navy as the default text and action color.
+  - Use teal for secondary actions and trust/community moments.
+  - Use gold and coral as accent colors, not default text colors.
+  - Keep to 3-5 interface colors per screen.
+  - Reserve cream for soft surfaces and light backgrounds.
+*/

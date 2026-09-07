@@ -44,6 +44,30 @@ Together, these values guide the club both on the playing field and in social wo
 
 The logo uses six expressive colors plus warm cream as a neutral support color. Navy is used for both the main structure and the club name to keep the palette compact and consistent.
 
+### UX Engineering Palette
+
+For product and interface use, the brand palette should be reduced to a clearer semantic system rather than used all at once. The goal is to preserve brand identity while keeping the UI readable, calm, and consistent.
+
+- Primary / trust / action: Navy `#17324D`
+- Secondary / community: Teal `#28705D`
+- Accent / prestige: Gold `#A86B00`
+- Warm activity / energy: Coral `#E96B50`
+- Positive / growth: Green `#4E9B83`
+- Background / soft support: Warm cream `#FFF4D6`
+- Neutral surface: `#F4F7F5`
+
+Use the palette in this order:
+
+- Navy for main buttons, headings, links, and body text
+- Teal for secondary calls to action, trust signals, and community cues
+- Gold and coral only as accents for emphasis, highlights, or limited feature states
+- Cream as a soft base layer for cards, banners, or light surfaces
+- Green for positive or success states
+
+Avoid using all six brand colors simultaneously on a single screen. The product experience is stronger when the interface follows a restrained 3–5 color system with the full brand palette reserved for marketing, merchandise, and identity use.
+
+The token file [ux-tokens.css](ux-tokens.css) contains a ready-to-use implementation for UI work.
+
 ### Hand-Drawing Requirements
 
 - Use clean, smooth edges and simple rounded shapes.

@@ -1,0 +1,40 @@
+{
+  "brand": {
+    "navy": "#17324D",
+    "teal": "#28705D",
+    "gold": "#A86B00",
+    "yellow": "#F2B544",
+    "coral": "#E96B50",
+    "green": "#4E9B83",
+    "cream": "#FFF4D6",
+    "ice": "#F4F7F5",
+    "night": "#142331"
+  },
+  "ux": {
+    "primary": "#17324D",
+    "primaryHover": "#0F2437",
+    "secondary": "#28705D",
+    "secondaryHover": "#225E4E",
+    "accent": "#A86B00",
+    "accentSoft": "#F2B544",
+    "actionWarm": "#E96B50",
+    "success": "#4E9B83",
+    "bgBase": "#FFF4D6",
+    "bgSurface": "#F4F7F5",
+    "textPrimary": "#17324D",
+    "textOnDark": "#F4F7F5",
+    "border": "#17324D",
+    "info": "#28705D",
+    "warning": "#A86B00",
+    "alert": "#E96B50",
+    "successStrong": "#4E9B83"
+  },
+  "darkMode": {
+    "bg": "#142331",
+    "bgElevated": "#1B2E3D",
+    "text": "#F4F7F5",
+    "textMuted": "#D9E3E1",
+    "secondary": "#63B89B",
+    "accent": "#F2B544"
+  }
+}
