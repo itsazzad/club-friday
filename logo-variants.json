@@ -92,6 +92,24 @@
             ],
             "nameFill": "#17324D"
         },
+        "banglaOnPaths": {
+            "extends": "banglaBase",
+            "mottoColors": ["#F4F7F5", "#F4F7F5", "#F4F7F5"],
+            "nameFill": "#F4F7F5",
+            "mottoSize": 12
+        },
+        "banglaOnPathsDark": {
+            "extends": "banglaBase",
+            "mottoColors": ["#17324D", "#17324D", "#17324D"],
+            "nameFill": "#17324D",
+            "mottoSize": 12
+        },
+        "banglaOnPathsRedJersey": {
+            "extends": "banglaBase",
+            "mottoColors": ["#DA291C", "#DA291C", "#DA291C"],
+            "nameFill": "#DA291C",
+            "mottoSize": 12
+        },
         "englishDark": {
             "extends": "englishBase",
             "mottoColors": [
@@ -198,6 +216,38 @@
                 "mottoDy": 4,
                 "nameDy": 10
             }
+        },
+        {
+            "file": "club-friday-logo-text-above-paths-bn.svg",
+            "title": "ক্লাব ফ্রাইডে লোগো - কাঠামোগত বাঁকের ওপর লেখা",
+            "description": "কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
+            "artwork": "light",
+            "text": "banglaOnPaths",
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+        },
+        {
+            "file": "club-friday-logo-text-above-paths-dark-bn.svg",
+            "title": "ক্লাব ফ্রাইডে লোগো - গাঢ় পটভূমির কাঠামোগত বাঁকের ওপর লেখা",
+            "description": "গাঢ় পটভূমির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
+            "artwork": "dark",
+            "text": "banglaOnPathsDark",
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+        },
+        {
+            "file": "club-friday-logo-text-above-paths-red-jersey-bn.svg",
+            "title": "ক্লাব ফ্রাইডে লাল জার্সির লোগো - কাঠামোগত বাঁকের ওপর লেখা",
+            "description": "#DA291C লাল জার্সির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে লোগো।",
+            "artwork": "redJersey",
+            "text": "banglaOnPathsRedJersey",
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+        },
+        {
+            "file": "club-friday-logo-text-above-paths-one-color-bn.svg",
+            "title": "ক্লাব ফ্রাইডে একরঙা লোগো - কাঠামোগত বাঁকের ওপর লেখা",
+            "description": "স্ট্যাম্প, সূচিকর্ম ও ছোট আকারের ব্যবহারের জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ একরঙা লোগো।",
+            "artwork": "oneColor",
+            "text": "banglaOneColor",
+            "paths": {"motto":"M121 155 Q256 58 391 155","name":"M136 426 Q256 400 376 426","mottoBackdropWidth":0,"nameBackdropWidth":0,"mottoDy":0,"nameDy":0}
         },
         {
             "file": "club-friday-logo-dark.svg",
