@@ -24,16 +24,32 @@ function validateConfig() {
   }
   const files = new Set();
   for (const variant of config.variants) {
-    if (!variant.file || files.has(variant.file)) {
+    if (!variant.file || !/^club-friday-logo(?:-[a-z0-9-]+)?\.svg$/.test(variant.file) || files.has(variant.file)) {
       throw new Error(`Duplicate or missing variant file: ${variant.file || '<empty>'}`);
     }
-    resolvePreset(config.artworkPresets, variant.artwork);
-    resolvePreset(config.textPresets, variant.text);
+    const artwork = resolvePreset(config.artworkPresets, variant.artwork);
+    const text = resolvePreset(config.textPresets, variant.text);
+    if (!artwork.structure || !artwork.badges || !artwork.ball || !artwork.action || !artwork.joining || !artwork.symbol) {
+      throw new Error(`Incomplete artwork preset "${variant.artwork}" for ${variant.file}`);
+    }
+    if (!text.family || !Array.isArray(text.motto) || text.motto.length !== 3 || !Array.isArray(text.mottoColors) || text.mottoColors.length !== 3 || !text.name || !text.nameFill) {
+      throw new Error(`Incomplete text preset "${variant.text}" for ${variant.file}`);
+    }
     files.add(variant.file);
   }
 }
 
 validateConfig();
+
+const expectedFiles = new Set(config.variants.map((variant) => variant.file));
+for (const file of fs.readdirSync(outputDir)) {
+  if (/^club-friday-logo(?:-[a-z0-9-]+)?\.svg$/.test(file) && !expectedFiles.has(file)) {
+    fs.unlinkSync(path.join(outputDir, file));
+    const png = file.replace(/\.svg$/, '.png');
+    if (fs.existsSync(path.join(outputDir, png))) fs.unlinkSync(path.join(outputDir, png));
+    console.log(`Removed stale logo/${file}`);
+  }
+}
 
 function mottoMarkup(settings) {
   return settings.motto.map((word, index) => {
@@ -109,6 +125,9 @@ function render(variant) {
 }
 
 for (const variant of config.variants) {
-  fs.writeFileSync(path.join(outputDir, variant.file), render(variant));
+  const outputPath = path.join(outputDir, variant.file);
+  const temporaryPath = `${outputPath}.tmp`;
+  fs.writeFileSync(temporaryPath, render(variant));
+  fs.renameSync(temporaryPath, outputPath);
   console.log(`Created logo/${variant.file}`);
 }
