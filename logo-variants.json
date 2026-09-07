@@ -92,6 +92,11 @@
             ],
             "nameFill": "#17324D"
         },
+        "banglaOneColorOnPaths": {
+            "extends": "banglaBase",
+            "mottoColors": ["#FFF4D6", "#FFF4D6", "#FFF4D6"],
+            "nameFill": "#FFF4D6"
+        },
         "banglaOnPaths": {
             "extends": "banglaBase",
             "mottoColors": ["#F4F7F5", "#F4F7F5", "#F4F7F5"],
@@ -252,8 +257,8 @@
             "title": "ক্লাব ফ্রাইডে একরঙা লোগো - কাঠামোগত বাঁকের ওপর লেখা",
             "description": "স্ট্যাম্প, সূচিকর্ম ও ছোট আকারের ব্যবহারের জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ একরঙা লোগো।",
             "artwork": "oneColor",
-            "text": "banglaOneColor",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":-22,"nameDy":-38}
+            "text": "banglaOneColorOnPaths",
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
             "file": "club-friday-logo-dark.svg",
@@ -302,7 +307,8 @@
             "title": "ক্লাব ফ্রাইডে একরঙা লোগো",
             "description": "স্ট্যাম্প, সূচিকর্ম এবং খুব ছোট আকারের ব্যবহারের জন্য একরঙা ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "oneColor",
-            "text": "banglaOneColor"
+            "text": "banglaOneColorOnPaths",
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         }
     ]
 }
