@@ -46,9 +46,17 @@ function mottoMarkup(settings) {
   }).join('');
 }
 
+function resolvePreset(presets, name, trail = []) {
+  const preset = presets[name];
+  if (!preset) throw new Error(`Unknown preset "${name}"`);
+  if (!preset.extends) return preset;
+  if (trail.includes(name)) throw new Error(`Circular preset inheritance: ${[...trail, name].join(' -> ')}`);
+  return {...resolvePreset(presets, preset.extends, [...trail, name]), ...preset};
+}
+
 function tokenValues(variant) {
-  const artwork = config.artworkPresets[variant.artwork];
-  const text = config.textPresets[variant.text];
+  const artwork = resolvePreset(config.artworkPresets, variant.artwork);
+  const text = resolvePreset(config.textPresets, variant.text);
   const value = {
     TITLE: escapeXml(variant.title),
     DESCRIPTION: escapeXml(variant.description),
