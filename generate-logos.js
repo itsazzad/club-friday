@@ -27,12 +27,8 @@ function validateConfig() {
     if (!variant.file || files.has(variant.file)) {
       throw new Error(`Duplicate or missing variant file: ${variant.file || '<empty>'}`);
     }
-    if (!config.artworkPresets[variant.artwork]) {
-      throw new Error(`Unknown artwork preset "${variant.artwork}" for ${variant.file}`);
-    }
-    if (!config.textPresets[variant.text]) {
-      throw new Error(`Unknown text preset "${variant.text}" for ${variant.file}`);
-    }
+    resolvePreset(config.artworkPresets, variant.artwork);
+    resolvePreset(config.textPresets, variant.text);
     files.add(variant.file);
   }
 }
@@ -46,12 +42,24 @@ function mottoMarkup(settings) {
   }).join('');
 }
 
+function mergePreset(base, override) {
+  const merged = {...base};
+  for (const [key, value] of Object.entries(override)) {
+    if (value && typeof value === 'object' && !Array.isArray(value) && base[key]) {
+      merged[key] = mergePreset(base[key], value);
+    } else if (key !== 'extends') {
+      merged[key] = value;
+    }
+  }
+  return merged;
+}
+
 function resolvePreset(presets, name, trail = []) {
   const preset = presets[name];
   if (!preset) throw new Error(`Unknown preset "${name}"`);
-  if (!preset.extends) return preset;
+  if (!preset.extends) return {...preset};
   if (trail.includes(name)) throw new Error(`Circular preset inheritance: ${[...trail, name].join(' -> ')}`);
-  return {...resolvePreset(presets, preset.extends, [...trail, name]), ...preset};
+  return mergePreset(resolvePreset(presets, preset.extends, [...trail, name]), preset);
 }
 
 function tokenValues(variant) {
