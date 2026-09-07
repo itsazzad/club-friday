@@ -54,24 +54,18 @@ The logo uses six expressive colors plus warm cream as a neutral support color. 
 - Keep the background transparent.
 - The logo should remain easy to draw by hand and clear at small sizes.
 
-### Background Variants
+### Logo Variants
 
-- Use [club-friday-logo.svg](logo/club-friday-logo.svg) on white, cream, or other light backgrounds. This is the standard light-background version.
-- Use [club-friday-logo.svg](logo/club-friday-logo.svg) on the `#FFF` white jersey. Its navy, teal, gold, yellow, coral, and green details are designed for light backgrounds.
-- Use [club-friday-logo-dark.svg](logo/club-friday-logo-dark.svg) on black, navy, or other dark backgrounds. It replaces the dark structural colors with soft white and uses brighter teal and gold accents.
-- Use [club-friday-logo-red-jersey.svg](logo/club-friday-logo-red-jersey.svg) on the `#DA291C` red jersey. It is a high-contrast white version with red-jersey cutouts inside the badges and ball.
-- Use [club-friday-logo-one-color.svg](logo/club-friday-logo-one-color.svg) for stamps, embroidery, engraving, and very small applications. It uses one navy ink color and open substrate for the internal details.
-- The experimental [text-above-paths variant](logo/club-friday-logo-text-above-paths.svg) places the motto and club name above the structural arcs.
-- These variants have transparent backgrounds and identical geometry. Do not place either logo inside an additional white or colored box.
+The project keeps the text-above-paths family as the official logo set. Choose the light, dark, red-jersey, or one-color variant according to the application; Bangla counterparts are available for each.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
-Bangla logo files: [light SVG](logo/club-friday-logo-bn.svg), [dark SVG](logo/club-friday-logo-dark-bn.svg), [red jersey SVG](logo/club-friday-logo-red-jersey-bn.svg), [one-color SVG](logo/club-friday-logo-one-color-bn.svg), and matching PNG exports.
+Bangla text-above-paths files are available in light, dark, red-jersey, and one-color variants, with matching PNG exports.
 
 ### Export PNGs
 
-The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared geometry and SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets plus the small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all fifteen SVGs and their transparent PNGs at 1024 x 1000 with:
+The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared geometry and SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets plus the small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all eight SVGs and their transparent PNGs at 1024 x 1000 with:
 
 ```sh
 ./generate-logos.sh
