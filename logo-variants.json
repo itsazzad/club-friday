@@ -176,6 +176,17 @@
             "text": "englishLight"
         },
         {
+            "file": "club-friday-logo-text-above-paths.svg",
+            "title": "Club Friday logo with lettering above the structural paths",
+            "description": "Club Friday community logo with the motto and club name positioned above the upper framing arc and lower joining arc.",
+            "artwork": "light",
+            "text": "englishLight",
+            "paths": {
+                "motto": "M121 143 Q256 46 391 143",
+                "name": "M136 410 Q256 384 376 410"
+            }
+        },
+        {
             "file": "club-friday-logo-dark.svg",
             "title": "Club Friday multi-sport community logo - dark background version",
             "description": "Club Friday community logo for dark backgrounds: three abstract membership badges represent younger, adult, and older members surrounding a simple multi-sport ball. They are joined by curved lines and matching four-point symbols representing shared values, empathy, harmony, justice, and service to society.",

@@ -119,6 +119,7 @@ For stamps, embroidery, engraving, and very small applications, use `logo/club-f
 ## Files
 
 - `logo/club-friday-logo.svg` - the transparent vector logo.
+- `logo/club-friday-logo-text-above-paths.svg` - the English variant with lettering above the structural arcs.
 - `logo/club-friday-logo-dark.svg` - the transparent vector logo for dark backgrounds.
 - `logo/club-friday-logo-bn.svg` - the Bangla transparent vector logo for light backgrounds.
 - `logo/club-friday-logo-dark-bn.svg` - the Bangla transparent vector logo for dark backgrounds.

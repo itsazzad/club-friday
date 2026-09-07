@@ -31,8 +31,8 @@
     </g>
 
     <defs>
-      <path id="motto-arc" d="M121 155 Q256 58 391 155"/>
-      <path id="name-arc" d="M136 426 Q256 400 376 426"/>
+      <path id="motto-arc" d="{{MOTTO_PATH}}"/>
+      <path id="name-arc" d="{{NAME_PATH}}"/>
     </defs>
 
     <g font-family="{{TEXT_FAMILY}}" text-anchor="middle">

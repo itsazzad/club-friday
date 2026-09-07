@@ -88,7 +88,9 @@ function tokenValues(variant) {
     NAME: escapeXml(text.name),
     NAME_FILL: text.nameFill,
     NAME_SIZE: text.nameSize,
-    NAME_SPACING: text.nameSpacing || 0
+    NAME_SPACING: text.nameSpacing || 0,
+    MOTTO_PATH: escapeXml(variant.paths?.motto || 'M121 155 Q256 58 391 155'),
+    NAME_PATH: escapeXml(variant.paths?.name || 'M136 426 Q256 400 376 426')
   };
   return value;
 }
