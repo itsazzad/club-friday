@@ -157,6 +157,16 @@
             ],
             "nameFill": "#F4F7F5"
         },
+        "englishRedJerseyOnPaths": {
+            "extends": "englishBase",
+            "mottoColors": ["#DA291C", "#DA291C", "#DA291C"],
+            "nameFill": "#DA291C"
+        },
+        "englishOneColorOnPaths": {
+            "extends": "englishBase",
+            "mottoColors": ["#FFF4D6", "#FFF4D6", "#FFF4D6"],
+            "nameFill": "#FFF4D6"
+        },
         "banglaBase": {
             "family": "Kohinoor Bangla, Bangla Sangam MN, sans-serif",
             "motto": [
@@ -234,6 +244,22 @@
             "description": "কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "light",
             "text": "banglaOnPaths",
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+        },
+        {
+            "file": "club-friday-logo-text-above-paths-red-jersey.svg",
+            "title": "Club Friday red jersey logo with lettering above paths",
+            "description": "Club Friday red jersey logo with the English motto and club name placed over high-contrast structural path bands.",
+            "artwork": "redJersey",
+            "text": "englishRedJerseyOnPaths",
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+        },
+        {
+            "file": "club-friday-logo-text-above-paths-one-color.svg",
+            "title": "Club Friday one-color logo with lettering above paths",
+            "description": "Single-color Club Friday logo with the English motto and club name placed over production path bands.",
+            "artwork": "oneColor",
+            "text": "englishOneColorOnPaths",
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {

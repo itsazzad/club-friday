@@ -120,6 +120,8 @@ For stamps, embroidery, engraving, and very small applications, use `logo/club-f
 
 - `logo/club-friday-logo.svg` - the transparent vector logo.
 - `logo/club-friday-logo-text-above-paths.svg` - the English variant with lettering above the structural arcs.
+- `logo/club-friday-logo-text-above-paths-red-jersey.svg` - the English red-jersey text-on-paths variant.
+- `logo/club-friday-logo-text-above-paths-one-color.svg` - the English one-color text-on-paths variant.
 - `logo/club-friday-logo-text-above-paths-bn.svg` - the Bangla light-background text-on-paths variant.
 - `logo/club-friday-logo-text-above-paths-dark-bn.svg` - the Bangla dark-background text-on-paths variant.
 - `logo/club-friday-logo-text-above-paths-red-jersey-bn.svg` - the Bangla red-jersey text-on-paths variant.
