@@ -330,9 +330,9 @@
             "artwork": "light",
             "text": "englishOnPaths",
             "symbols": {
-                "leftX": 145,
-                "rightX": 367,
-                "y": 118
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
             },
             "paths": {
                 "motto": "M103 333a178 178 0 1 1 306 0",
