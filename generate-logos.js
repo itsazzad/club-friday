@@ -96,6 +96,10 @@ function tokenValues(variant) {
     BALL_PANEL: artwork.ball.panel,
     ACTION: artwork.action,
     JOINING: artwork.joining,
+    // hidden when a variant explicitly hides the redundant thin outline under the wider name backdrop
+    JOINING_STROKE: variant.paths?.hideJoiningStroke
+      ? ''
+      : `<path fill="none" stroke="${artwork.joining}" d="${escapeXml(variant.paths?.name || 'M136 426 Q256 400 376 426')}"/>`,
     SYMBOL: artwork.symbol,
     TEXT_FAMILY: text.family,
     MOTTO_SIZE: text.mottoSize,

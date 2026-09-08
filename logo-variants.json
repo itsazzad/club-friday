@@ -306,6 +306,22 @@
                 "mottoDy": 4,
                 "nameDy": 18
             }
+        },
+        {
+            "file": "club-friday-logo-no-joining-stroke.svg",
+            "title": "Club Friday logo without the thin joining outline",
+            "description": "Club Friday community logo variant with the thin structural joining outline removed, leaving only the wider club name backdrop band.",
+            "artwork": "light",
+            "text": "englishOnPaths",
+            "paths": {
+                "motto": "M103 333a178 178 0 1 1 306 0",
+                "name": "M103 333a178 178 0 0 1 306 0",
+                "mottoBackdropWidth": 24,
+                "nameBackdropWidth": 44,
+                "mottoDy": 4,
+                "nameDy": 10,
+                "hideJoiningStroke": true
+            }
         }
     ]
 }
