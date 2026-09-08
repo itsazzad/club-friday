@@ -229,7 +229,7 @@
             "text": "englishOnPaths",
             "paths": {
                 "motto": "M103 333a178 178 0 1 1 306 0",
-                "name": "M91 407c48 48 105 72 165 72s117-24 165-72",
+                "name": "M103 333a178 178 0 0 1 306 0",
                 "mottoBackdropWidth": 24,
                 "nameBackdropWidth": 44,
                 "mottoDy": 4,
@@ -242,7 +242,7 @@
             "description": "কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "light",
             "text": "banglaOnPaths",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
             "file": "club-friday-logo-dark.svg",
@@ -250,7 +250,7 @@
             "description": "Club Friday dark-background logo with the English motto and club name placed over high-contrast structural path bands.",
             "artwork": "dark",
             "text": "englishDarkOnPaths",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
             "file": "club-friday-logo-red-jersey.svg",
@@ -258,7 +258,7 @@
             "description": "Club Friday red jersey logo with the English motto and club name placed over high-contrast structural path bands.",
             "artwork": "redJersey",
             "text": "englishRedJerseyOnPaths",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
             "file": "club-friday-logo-one-color.svg",
@@ -266,7 +266,7 @@
             "description": "Single-color Club Friday logo with the English motto and club name placed over production path bands.",
             "artwork": "oneColor",
             "text": "englishOneColorOnPaths",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
             "file": "club-friday-logo-dark-bn.svg",
@@ -274,7 +274,7 @@
             "description": "গাঢ় পটভূমির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "dark",
             "text": "banglaDarkOnPaths",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
             "file": "club-friday-logo-red-jersey-bn.svg",
@@ -282,7 +282,7 @@
             "description": "#DA291C লাল জার্সির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে লোগো।",
             "artwork": "redJersey",
             "text": "banglaOnPathsRedJersey",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
             "file": "club-friday-logo-one-color-bn.svg",
@@ -290,7 +290,7 @@
             "description": "স্ট্যাম্প, সূচিকর্ম ও ছোট আকারের ব্যবহারের জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ একরঙা লোগো।",
             "artwork": "oneColor",
             "text": "banglaOneColorOnPaths",
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M91 407c48 48 105 72 165 72s117-24 165-72","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         }
     ]
 }
