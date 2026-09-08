@@ -291,6 +291,21 @@
             "artwork": "oneColor",
             "text": "banglaOneColorOnPaths",
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
+        },
+        {
+            "file": "club-friday-logo-reversed-name-arc.svg",
+            "title": "Club Friday logo with reversed club name arc curvature",
+            "description": "Club Friday community logo variant where the club name band curves upward instead of cradling the ball, for comparison against the standard curvature.",
+            "artwork": "light",
+            "text": "englishOnPaths",
+            "paths": {
+                "motto": "M103 333a178 178 0 1 1 306 0",
+                "name": "M103 333a178 178 0 0 0 306 0",
+                "mottoBackdropWidth": 24,
+                "nameBackdropWidth": 44,
+                "mottoDy": 4,
+                "nameDy": 18
+            }
         }
     ]
 }
