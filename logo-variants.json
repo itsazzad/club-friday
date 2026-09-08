@@ -322,6 +322,26 @@
                 "nameDy": 10,
                 "hideJoiningStroke": true
             }
+        },
+        {
+            "file": "club-friday-logo-diamonds-inside.svg",
+            "title": "Club Friday logo with diamonds inside the upper arc",
+            "description": "Club Friday community logo comparison variant with gold diamonds balanced inside the upper arc above the member badges.",
+            "artwork": "light",
+            "text": "englishOnPaths",
+            "symbols": {
+                "leftX": 145,
+                "rightX": 367,
+                "y": 118
+            },
+            "paths": {
+                "motto": "M103 333a178 178 0 1 1 306 0",
+                "name": "M103 333a178 178 0 0 1 306 0",
+                "mottoBackdropWidth": 24,
+                "nameBackdropWidth": 44,
+                "mottoDy": 4,
+                "nameDy": 10
+            }
         }
     ]
 }

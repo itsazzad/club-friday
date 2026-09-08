@@ -26,8 +26,8 @@
       <path fill="none" stroke="{{ACTION}}" stroke-width="8" d="M181 316h-18M186 306l-15-10M186 326l-15 10M331 316h18M326 306l15-10M326 326l15 10"/>
       {{JOINING_STROKE}}
 
-      <path fill="{{SYMBOL}}" stroke="{{SYMBOL}}" stroke-width="6" d="m106 90 8 8-8 8-8-8z"/>
-      <path fill="{{SYMBOL}}" stroke="{{SYMBOL}}" stroke-width="6" d="m406 90 8 8-8 8-8-8z"/>
+      <path fill="{{SYMBOL}}" stroke="{{SYMBOL}}" stroke-width="6" d="m{{LEFT_SYMBOL_X}} {{SYMBOL_Y}} 8 8-8 8-8-8z"/>
+      <path fill="{{SYMBOL}}" stroke="{{SYMBOL}}" stroke-width="6" d="m{{RIGHT_SYMBOL_X}} {{SYMBOL_Y}} 8 8-8 8-8-8z"/>
     </g>
 
     <defs>
