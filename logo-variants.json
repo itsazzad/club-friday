@@ -342,6 +342,47 @@
                 "mottoDy": 4,
                 "nameDy": 10
             }
+        },
+        {
+            "file": "club-friday-logo-no-joining-stroke-diamonds-inside.svg",
+            "title": "Club Friday logo without joining outline and with diamonds inside",
+            "description": "Club Friday comparison variant without the thin joining outline and with gold diamonds balanced inside the upper arc.",
+            "artwork": "light",
+            "text": "englishOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
+            "paths": {
+                "motto": "M103 333a178 178 0 1 1 306 0",
+                "name": "M103 333a178 178 0 0 1 306 0",
+                "mottoBackdropWidth": 24,
+                "nameBackdropWidth": 44,
+                "mottoDy": 4,
+                "nameDy": 10,
+                "hideJoiningStroke": true
+            }
+        },
+        {
+            "file": "club-friday-logo-reversed-name-arc-diamonds-inside.svg",
+            "title": "Club Friday logo with reversed name arc and diamonds inside",
+            "description": "Club Friday comparison variant with an upward-curving club name band and gold diamonds balanced inside the upper arc.",
+            "artwork": "light",
+            "text": "englishOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
+            "paths": {
+                "motto": "M103 333a178 178 0 1 1 306 0",
+                "name": "M103 333a178 178 0 0 0 306 0",
+                "mottoBackdropWidth": 24,
+                "nameBackdropWidth": 44,
+                "mottoDy": 4,
+                "nameDy": 11
+            }
         }
     ]
 }
