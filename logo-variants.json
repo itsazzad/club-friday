@@ -49,7 +49,7 @@
             "ball": {
                 "fill": "#F4F7F5",
                 "stroke": "#F4F7F5",
-                "panel": "none"
+                "panel": "#DA291C"
             },
             "action": "#F4F7F5",
             "joining": "#F4F7F5",
@@ -281,7 +281,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M100 370 Q256 420 412 370","mottoBackdropWidth":0,"nameBackdropWidth":0,"mottoDy":4,"nameDy":0,"hideJoiningStroke":true}
+            "paths": {"motto":"M120 220 Q256 55 392 220","name":"M100 370 Q256 420 412 370","mottoBackdropWidth":6,"nameBackdropWidth":6,"mottoDy":0,"nameDy":0}
         },
         {
             "file": "club-friday-logo-one-color.svg",
@@ -320,7 +320,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M145 370 Q256 420 367 370","mottoBackdropWidth":0,"nameBackdropWidth":0,"mottoDy":4,"nameDy":0,"hideJoiningStroke":true}
+            "paths": {"motto":"M120 220 Q256 55 392 220","name":"M145 370 Q256 420 367 370","mottoBackdropWidth":6,"nameBackdropWidth":6,"mottoDy":0,"nameDy":0}
         },
         {
             "file": "club-friday-logo-one-color-bn.svg",
