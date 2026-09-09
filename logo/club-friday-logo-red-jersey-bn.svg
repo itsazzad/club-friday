@@ -38,7 +38,7 @@
          cx="144"
          cy="247"
          r="7"
-         fill="#F4F7F5"
+         fill="none"
          stroke="none"
          id="circle1" />
     </g>
@@ -58,7 +58,7 @@
          cx="256"
          cy="195"
          r="9"
-         fill="#F4F7F5"
+         fill="none"
          stroke="none"
          id="circle2" />
     </g>
@@ -78,7 +78,7 @@
          cx="368"
          cy="247"
          r="7"
-         fill="#F4F7F5"
+         fill="none"
          stroke="none"
          id="circle3" />
     </g>
@@ -86,13 +86,13 @@
        cx="256"
        cy="316"
        r="55"
-       fill="#F4F7F5"
+       fill="none"
        stroke="#F4F7F5"
        stroke-width="12"
        id="circle4" />
     <path
        fill="none"
-       stroke="#F4F7F5"
+       stroke="none"
        stroke-width="9"
        d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"
        id="path4" />
@@ -132,14 +132,14 @@
   <path
      d="M103 333a178 178 0 1 1 306 0"
      fill="none"
-     stroke="#F4F7F5"
+     stroke="#DA291C"
      stroke-width="24"
      stroke-linecap="round"
      id="path9" />
   <path
      d="M103 333a178 178 0 0 0 306 0"
      fill="none"
-     stroke="#F4F7F5"
+     stroke="#DA291C"
      stroke-width="44"
      stroke-linecap="round"
      id="path10" />

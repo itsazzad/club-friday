@@ -37,16 +37,17 @@
         },
         "redJersey": {
             "structure": "#F4F7F5",
+            "textBackdrop": "#DA291C",
             "badges": {
                 "younger": "#F4F7F5",
                 "adult": "#F4F7F5",
                 "older": "#F4F7F5"
             },
-            "badgeInner": "#F4F7F5",
+            "badgeInner": "none",
             "ball": {
-                "fill": "#F4F7F5",
+                "fill": "none",
                 "stroke": "#F4F7F5",
-                "panel": "#F4F7F5"
+                "panel": "none"
             },
             "action": "#F4F7F5",
             "joining": "#F4F7F5",
