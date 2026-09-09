@@ -114,8 +114,8 @@
         },
         "banglaOnPathsRedJersey": {
             "extends": "banglaBase",
-            "mottoColors": ["#17324D", "#17324D", "#17324D"],
-            "nameFill": "#17324D",
+            "mottoColors": ["none", "none", "none"],
+            "nameFill": "none",
             "mottoSize": 12
         },
         "banglaDarkOnPaths": {
@@ -162,8 +162,8 @@
         },
         "englishRedJerseyOnPaths": {
             "extends": "englishBase",
-            "mottoColors": ["#17324D", "#17324D", "#17324D"],
-            "nameFill": "#17324D"
+            "mottoColors": ["none", "none", "none"],
+            "nameFill": "none"
         },
         "englishOneColorOnPaths": {
             "extends": "englishBase",
