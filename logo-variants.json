@@ -37,7 +37,7 @@
         },
         "redJersey": {
             "structure": "#F4F7F5",
-            "textBackdrop": "none",
+            "textBackdrop": "#F4F7F5",
             "textStroke": "none",
             "textStrokeWidth": 0,
             "badges": {
@@ -114,8 +114,8 @@
         },
         "banglaOnPathsRedJersey": {
             "extends": "banglaBase",
-            "mottoColors": ["#F4F7F5", "#F4F7F5", "#F4F7F5"],
-            "nameFill": "#F4F7F5",
+            "mottoColors": ["#17324D", "#17324D", "#17324D"],
+            "nameFill": "#17324D",
             "mottoSize": 12
         },
         "banglaDarkOnPaths": {
@@ -136,11 +136,11 @@
         "englishRedJersey": {
             "extends": "englishBase",
             "mottoColors": [
-                "#F4F7F5",
-                "#F4F7F5",
-                "#F4F7F5"
+                "#17324D",
+                "#17324D",
+                "#17324D"
             ],
-            "nameFill": "#F4F7F5"
+            "nameFill": "#17324D"
         },
         "englishOneColor": {
             "extends": "englishBase",
@@ -162,8 +162,8 @@
         },
         "englishRedJerseyOnPaths": {
             "extends": "englishBase",
-            "mottoColors": ["#F4F7F5", "#F4F7F5", "#F4F7F5"],
-            "nameFill": "#F4F7F5"
+            "mottoColors": ["#17324D", "#17324D", "#17324D"],
+            "nameFill": "#17324D"
         },
         "englishOneColorOnPaths": {
             "extends": "englishBase",
@@ -207,11 +207,11 @@
         "banglaRedJersey": {
             "extends": "banglaBase",
             "mottoColors": [
-                "#F4F7F5",
-                "#F4F7F5",
-                "#F4F7F5"
+                "#17324D",
+                "#17324D",
+                "#17324D"
             ],
-            "nameFill": "#F4F7F5"
+            "nameFill": "#17324D"
         },
         "banglaOneColor": {
             "extends": "banglaBase",
@@ -281,7 +281,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M120 220 Q256 55 392 220","name":"M100 370 Q256 420 412 370","mottoBackdropWidth":6,"nameBackdropWidth":6,"mottoDy":0,"nameDy":0}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
         },
         {
             "file": "club-friday-logo-one-color.svg",
@@ -320,7 +320,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M120 220 Q256 55 392 220","name":"M145 370 Q256 420 367 370","mottoBackdropWidth":6,"nameBackdropWidth":6,"mottoDy":0,"nameDy":0}
+            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
         },
         {
             "file": "club-friday-logo-one-color-bn.svg",
