@@ -227,6 +227,11 @@
             "description": "Club Friday community logo with the motto and club name positioned above the upper framing arc and lower joining arc.",
             "artwork": "light",
             "text": "englishOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {
                 "motto": "M103 333a178 178 0 1 1 306 0",
                 "name": "M103 333a178 178 0 0 1 306 0",
@@ -242,6 +247,11 @@
             "description": "কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "light",
             "text": "banglaOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
@@ -250,6 +260,11 @@
             "description": "Club Friday dark-background logo with the English motto and club name placed over high-contrast structural path bands.",
             "artwork": "dark",
             "text": "englishDarkOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
@@ -258,6 +273,11 @@
             "description": "Club Friday red jersey logo with the English motto and club name placed over high-contrast structural path bands.",
             "artwork": "redJersey",
             "text": "englishRedJerseyOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
@@ -266,6 +286,11 @@
             "description": "Single-color Club Friday logo with the English motto and club name placed over production path bands.",
             "artwork": "oneColor",
             "text": "englishOneColorOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
@@ -274,6 +299,11 @@
             "description": "গাঢ় পটভূমির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে সম্প্রদায়ের লোগো।",
             "artwork": "dark",
             "text": "banglaDarkOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
@@ -282,6 +312,11 @@
             "description": "#DA291C লাল জার্সির জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ ক্লাব ফ্রাইডে লোগো।",
             "artwork": "redJersey",
             "text": "banglaOnPathsRedJersey",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
@@ -290,6 +325,11 @@
             "description": "স্ট্যাম্প, সূচিকর্ম ও ছোট আকারের ব্যবহারের জন্য কাঠামোগত বাঁকের ওপর বাংলা মূলমন্ত্র ও ক্লাবের নামসহ একরঙা লোগো।",
             "artwork": "oneColor",
             "text": "banglaOneColorOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 1 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":10}
         },
         {
@@ -298,6 +338,11 @@
             "description": "Club Friday community logo variant where the club name band curves upward instead of cradling the ball, for comparison against the standard curvature.",
             "artwork": "light",
             "text": "englishOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {
                 "motto": "M103 333a178 178 0 1 1 306 0",
                 "name": "M103 333a178 178 0 0 0 306 0",
@@ -313,6 +358,11 @@
             "description": "Club Friday community logo variant with the thin structural joining outline removed, leaving only the wider club name backdrop band.",
             "artwork": "light",
             "text": "englishOnPaths",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
             "paths": {
                 "motto": "M103 333a178 178 0 1 1 306 0",
                 "name": "M103 333a178 178 0 0 1 306 0",
