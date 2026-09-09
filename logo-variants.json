@@ -42,11 +42,11 @@
                 "adult": "#F4F7F5",
                 "older": "#F4F7F5"
             },
-            "badgeInner": "#DA291C",
+            "badgeInner": "#F4F7F5",
             "ball": {
                 "fill": "#F4F7F5",
                 "stroke": "#F4F7F5",
-                "panel": "#DA291C"
+                "panel": "#F4F7F5"
             },
             "action": "#F4F7F5",
             "joining": "#F4F7F5",
