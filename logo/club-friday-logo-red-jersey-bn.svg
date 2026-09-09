@@ -86,13 +86,13 @@
        cx="256"
        cy="316"
        r="55"
-       fill="#F4F7F5"
+       fill="none"
        stroke="#F4F7F5"
        stroke-width="12"
        id="circle4" />
     <path
        fill="none"
-       stroke="none"
+       stroke="#F4F7F5"
        stroke-width="9"
        d="M256 273c-16 11-25 25-25 43s9 32 25 43m0-86c16 11 25 25 25 43s-9 32-25 43m-43-43h86"
        id="path4" />

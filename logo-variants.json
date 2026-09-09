@@ -47,9 +47,9 @@
             },
             "badgeInner": "none",
             "ball": {
-                "fill": "#F4F7F5",
+                "fill": "none",
                 "stroke": "#F4F7F5",
-                "panel": "none"
+                "panel": "#F4F7F5"
             },
             "action": "#F4F7F5",
             "joining": "#F4F7F5",
