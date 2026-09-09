@@ -86,7 +86,7 @@
        cx="256"
        cy="316"
        r="55"
-       fill="none"
+       fill="#F4F7F5"
        stroke="#F4F7F5"
        stroke-width="12"
        id="circle4" />
