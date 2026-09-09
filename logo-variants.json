@@ -72,6 +72,16 @@
             "symbol": "#17324D"
         }
     },
+    "pathPresets": {
+        "canonical": {
+            "motto": "M103 333a178 178 0 1 1 306 0",
+            "name": "M103 333a178 178 0 0 0 306 0",
+            "mottoBackdropWidth": 24,
+            "nameBackdropWidth": 44,
+            "mottoDy": 4,
+            "nameDy": 11
+        }
+    },
     "textPresets": {
         "englishBase": {
             "family": "Avenir Next, Trebuchet MS, Arial, sans-serif",
@@ -235,14 +245,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {
-                "motto": "M103 333a178 178 0 1 1 306 0",
-                "name": "M103 333a178 178 0 0 0 306 0",
-                "mottoBackdropWidth": 24,
-                "nameBackdropWidth": 44,
-                "mottoDy": 4,
-                "nameDy": 11
-            }
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-bn.svg",
@@ -255,7 +258,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-dark.svg",
@@ -268,7 +271,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-red-jersey.svg",
@@ -281,7 +284,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-one-color.svg",
@@ -294,7 +297,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-dark-bn.svg",
@@ -307,7 +310,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-red-jersey-bn.svg",
@@ -320,7 +323,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-one-color-bn.svg",
@@ -333,7 +336,7 @@
                 "rightX": 338,
                 "y": 120
             },
-            "paths": {"motto":"M103 333a178 178 0 1 1 306 0","name":"M103 333a178 178 0 0 0 306 0","mottoBackdropWidth":24,"nameBackdropWidth":44,"mottoDy":4,"nameDy":11}
+            "paths": "canonical"
         }
     ]
 }

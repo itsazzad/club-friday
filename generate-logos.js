@@ -20,8 +20,8 @@ function escapeXml(value) {
 }
 
 function validateConfig() {
-  if (!Array.isArray(config.variants) || !config.artworkPresets || !config.textPresets) {
-    throw new Error('logo-variants.json must define artworkPresets, textPresets, and variants');
+  if (!Array.isArray(config.variants) || !config.artworkPresets || !config.textPresets || !config.pathPresets) {
+    throw new Error('logo-variants.json must define artworkPresets, textPresets, pathPresets, and variants');
   }
   const files = new Set();
   for (const variant of config.variants) {
@@ -30,7 +30,7 @@ function validateConfig() {
     }
     const artwork = resolvePreset(config.artworkPresets, variant.artwork);
     const text = resolvePreset(config.textPresets, variant.text);
-    const paths = variant.paths || {};
+    const paths = resolvePaths(variant);
     if (!artwork.structure || !artwork.badges || !artwork.ball || !artwork.action || !artwork.joining || !artwork.symbol) {
       throw new Error(`Incomplete artwork preset "${variant.artwork}" for ${variant.file}`);
     }
@@ -91,9 +91,19 @@ function resolvePreset(presets, name, trail = []) {
   return resolved;
 }
 
+function resolvePaths(variant) {
+  if (typeof variant.paths === 'string') {
+    const paths = config.pathPresets[variant.paths];
+    if (!paths) throw new Error(`Unknown path preset "${variant.paths}" for ${variant.file}`);
+    return {...paths};
+  }
+  return variant.paths || {};
+}
+
 function tokenValues(variant) {
   const artwork = resolvePreset(config.artworkPresets, variant.artwork);
   const text = resolvePreset(config.textPresets, variant.text);
+  const paths = resolvePaths(variant);
   const value = {
     TITLE: escapeXml(variant.title),
     DESCRIPTION: escapeXml(variant.description),
@@ -109,9 +119,9 @@ function tokenValues(variant) {
     BALL_PANEL: artwork.ball.panel,
     ACTION: artwork.action,
     JOINING: artwork.joining,
-    JOINING_STROKE: variant.paths?.hideJoiningStroke
+    JOINING_STROKE: paths.hideJoiningStroke
       ? ''
-      : `<path fill="none" stroke="${artwork.joining}" d="${escapeXml(variant.paths?.name || 'M136 426 Q256 400 376 426')}"/>`,
+      : `<path fill="none" stroke="${artwork.joining}" d="${escapeXml(paths.name || 'M136 426 Q256 400 376 426')}"/>`,
     SYMBOL: artwork.symbol,
     LEFT_SYMBOL_X: variant.symbols?.leftX ?? 106,
     RIGHT_SYMBOL_X: variant.symbols?.rightX ?? 406,
@@ -124,14 +134,14 @@ function tokenValues(variant) {
     NAME_FILL: text.nameFill,
     NAME_SIZE: text.nameSize,
     NAME_SPACING: text.nameSpacing || 0,
-    MOTTO_PATH: escapeXml(variant.paths?.motto || 'M121 155 Q256 58 391 155'),
-    NAME_PATH: escapeXml(variant.paths?.name || 'M136 426 Q256 400 376 426'),
+    MOTTO_PATH: escapeXml(paths.motto || 'M121 155 Q256 58 391 155'),
+    NAME_PATH: escapeXml(paths.name || 'M136 426 Q256 400 376 426'),
     MOTTO_BACKDROP: artwork.textBackdrop || artwork.structure,
     NAME_BACKDROP: artwork.textBackdrop || artwork.joining,
-    MOTTO_BACKDROP_WIDTH: variant.paths?.mottoBackdropWidth || 0,
-    NAME_BACKDROP_WIDTH: variant.paths?.nameBackdropWidth || 0,
-    MOTTO_DY: variant.paths?.mottoDy || 0,
-    NAME_DY: variant.paths?.nameDy || 0,
+    MOTTO_BACKDROP_WIDTH: paths.mottoBackdropWidth || 0,
+    NAME_BACKDROP_WIDTH: paths.nameBackdropWidth || 0,
+    MOTTO_DY: paths.mottoDy || 0,
+    NAME_DY: paths.nameDy || 0,
     TEXT_STROKE: artwork.textStroke || 'none',
     TEXT_STROKE_WIDTH: artwork.textStrokeWidth || 0
   };
