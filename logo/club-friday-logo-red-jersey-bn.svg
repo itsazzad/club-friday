@@ -132,14 +132,14 @@
   <path
      d="M103 333a178 178 0 1 1 306 0"
      fill="none"
-     stroke="none"
+     stroke="#F4F7F5"
      stroke-width="24"
      stroke-linecap="round"
      id="path9" />
   <path
      d="M103 333a178 178 0 0 0 306 0"
      fill="none"
-     stroke="none"
+     stroke="#F4F7F5"
      stroke-width="44"
      stroke-linecap="round"
      id="path10" />
