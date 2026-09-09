@@ -6,6 +6,7 @@ const root = __dirname;
 const outputDir = path.join(root, 'logo');
 const template = fs.readFileSync(path.join(root, 'logo-template.svg'), 'utf8');
 const config = JSON.parse(fs.readFileSync(path.join(root, 'logo-variants.json'), 'utf8'));
+const presetCache = new Map();
 
 fs.mkdirSync(outputDir, { recursive: true });
 
@@ -29,11 +30,15 @@ function validateConfig() {
     }
     const artwork = resolvePreset(config.artworkPresets, variant.artwork);
     const text = resolvePreset(config.textPresets, variant.text);
+    const paths = variant.paths || {};
     if (!artwork.structure || !artwork.badges || !artwork.ball || !artwork.action || !artwork.joining || !artwork.symbol) {
       throw new Error(`Incomplete artwork preset "${variant.artwork}" for ${variant.file}`);
     }
     if (!text.family || !Array.isArray(text.motto) || text.motto.length !== 3 || !Array.isArray(text.mottoColors) || text.mottoColors.length !== 3 || !text.name || !text.nameFill) {
       throw new Error(`Incomplete text preset "${variant.text}" for ${variant.file}`);
+    }
+    if (typeof paths.motto !== 'string' || typeof paths.name !== 'string') {
+      throw new Error(`Incomplete geometry paths for ${variant.file}`);
     }
     files.add(variant.file);
   }
@@ -71,11 +76,19 @@ function mergePreset(base, override) {
 }
 
 function resolvePreset(presets, name, trail = []) {
+  const cacheKey = `${presets === config.artworkPresets ? 'artwork' : 'text'}:${name}`;
+  if (!trail.length && presetCache.has(cacheKey)) return presetCache.get(cacheKey);
   const preset = presets[name];
   if (!preset) throw new Error(`Unknown preset "${name}"`);
-  if (!preset.extends) return {...preset};
+  if (!preset.extends) {
+    const resolved = {...preset};
+    if (!trail.length) presetCache.set(cacheKey, resolved);
+    return resolved;
+  }
   if (trail.includes(name)) throw new Error(`Circular preset inheritance: ${[...trail, name].join(' -> ')}`);
-  return mergePreset(resolvePreset(presets, preset.extends, [...trail, name]), preset);
+  const resolved = mergePreset(resolvePreset(presets, preset.extends, [...trail, name]), preset);
+  if (!trail.length) presetCache.set(cacheKey, resolved);
+  return resolved;
 }
 
 function tokenValues(variant) {
