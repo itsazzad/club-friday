@@ -118,7 +118,9 @@ function tokenValues(variant) {
     MOTTO_BACKDROP_WIDTH: variant.paths?.mottoBackdropWidth || 0,
     NAME_BACKDROP_WIDTH: variant.paths?.nameBackdropWidth || 0,
     MOTTO_DY: variant.paths?.mottoDy || 0,
-    NAME_DY: variant.paths?.nameDy || 0
+    NAME_DY: variant.paths?.nameDy || 0,
+    TEXT_STROKE: artwork.textStroke || 'none',
+    TEXT_STROKE_WIDTH: artwork.textStrokeWidth || 0
   };
   return value;
 }

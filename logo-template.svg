@@ -39,10 +39,10 @@
     <path d="{{NAME_PATH}}" fill="none" stroke="{{NAME_BACKDROP}}" stroke-width="{{NAME_BACKDROP_WIDTH}}" stroke-linecap="round"/>
 
     <g font-family="{{TEXT_FAMILY}}" text-anchor="middle">
-      <text font-size="{{MOTTO_SIZE}}" font-weight="700" letter-spacing="{{MOTTO_SPACING}}">
+      <text font-size="{{MOTTO_SIZE}}" font-weight="700" letter-spacing="{{MOTTO_SPACING}}" stroke="{{TEXT_STROKE}}" stroke-width="{{TEXT_STROKE_WIDTH}}" paint-order="stroke fill">
         <textPath href="#motto-arc" xlink:href="#motto-arc" startOffset="50%" dy="{{MOTTO_DY}}">{{MOTTO_MARKUP}}</textPath>
       </text>
-      <text fill="{{NAME_FILL}}" font-size="{{NAME_SIZE}}" font-weight="800" letter-spacing="{{NAME_SPACING}}">
+      <text fill="{{NAME_FILL}}" font-size="{{NAME_SIZE}}" font-weight="800" letter-spacing="{{NAME_SPACING}}" stroke="{{TEXT_STROKE}}" stroke-width="{{TEXT_STROKE_WIDTH}}" paint-order="stroke fill">
         <textPath href="#name-arc" xlink:href="#name-arc" startOffset="50%" dy="{{NAME_DY}}">{{NAME}}</textPath>
       </text>
     </g>

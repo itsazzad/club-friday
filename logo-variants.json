@@ -37,7 +37,9 @@
         },
         "redJersey": {
             "structure": "#F4F7F5",
-            "textBackdrop": "#DA291C",
+            "textBackdrop": "none",
+            "textStroke": "#DA291C",
+            "textStrokeWidth": 6,
             "badges": {
                 "younger": "#F4F7F5",
                 "adult": "#F4F7F5",
