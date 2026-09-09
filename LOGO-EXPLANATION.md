@@ -83,6 +83,17 @@ These values are inspired by the central principle of [Hilf al-Fudul](https://en
 
 The logo uses six expressive colors plus warm cream as a neutral support color. The darker colors are used for small text and structural lines so the logo remains readable in print.
 
+### Red-jersey application
+
+The red-jersey variants are designed for a `#DA291C` garment. They keep the same geometry, arc paths, member badges, symbols, and ball proportions as the base logo, while adapting the artwork for contrast:
+
+- Structural artwork is white so it remains visible on the red fabric.
+- The motto and club name use `#DA291C`, matching the jersey color, and sit on the white structural bands.
+- The member badge centers and ball interior remain transparent where the jersey fabric should show through.
+- The ball outline and internal artwork remain white so the ball stays recognizable without adding a competing fill color.
+
+This is an application-specific color treatment; it does not change the canonical logo geometry.
+
 ## Hand-Drawing Guidance
 
 The logo is designed to be reproduced without specialist equipment:
@@ -101,7 +112,7 @@ The logo should remain recognizable in color, black and white, embroidery, stamp
 
 ## Logo Variants
 
-The official set uses a shared path-text composition in light, dark, red-jersey, and one-color English and Bangla variants. Each variant keeps the same geometry while adapting artwork and text contrast to its application.
+The official set uses a shared path-text composition in light, dark, red-jersey, and one-color English and Bangla variants. Every variant reuses the canonical path geometry; only artwork colors, text colors, and application metadata change.
 
 ## Files
 
@@ -124,7 +135,7 @@ The official set uses a shared path-text composition in light, dark, red-jersey,
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.
 - `logo-template.svg` - the shared SVG structure used by the generator.
-- `logo-variants.json` - reusable artwork/text presets and per-variant metadata.
+- `logo-variants.json` - reusable artwork/text presets, the canonical path preset, and per-variant metadata.
 - `generate-logos.js` - the dependency-free SVG generator.
 - `generate-logos.sh` - the command that generates all SVGs and PNGs.
 

@@ -42,6 +42,8 @@ Together, these values guide the club both on the playing field and in social wo
 - Green `#4E9B83`: growth, balance, and continuity.
 - Warm cream `#FFF4D6`: neutral support color for openness and shared space.
 
+For the red-jersey application, the garment color is `#DA291C`. The red-jersey variants keep the shared base geometry and use white structural artwork, jersey-red motto/name text on the white bands, transparent member centers, and a transparent ball interior with white ball artwork.
+
 The logo uses six expressive colors plus warm cream as a neutral support color. Navy is used for both the main structure and the club name to keep the palette compact and consistent.
 
 ### UX Engineering Palette
@@ -80,7 +82,7 @@ The token file [ux-tokens.css](ux-tokens.css) contains a ready-to-use implementa
 
 ### Logo Variants
 
-The project keeps the path-text family as the official logo set. Choose the light, dark, red-jersey, or one-color variant according to the application; Bangla counterparts are available for each.
+The project keeps the path-text family as the official logo set. Choose the light, dark, red-jersey, or one-color variant according to the application; Bangla counterparts are available for each. All variants reuse the canonical geometry defined in the `pathPresets.canonical` entry in [logo-variants.json](logo-variants.json).
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
@@ -89,7 +91,7 @@ Bangla path-text files are available in light, dark, red-jersey, and one-color v
 
 ### Export PNGs
 
-The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared geometry and SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets plus the small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all eight SVGs and their transparent PNGs at 1024 x 1000 with:
+The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets, the canonical path preset, and small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all eight SVGs and their transparent PNGs at 1024 x 1000 with:
 
 ```sh
 ./generate-logos.sh
