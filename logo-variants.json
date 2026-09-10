@@ -80,6 +80,15 @@
             "nameBackdropWidth": 44,
             "mottoDy": 4,
             "nameDy": 11
+        },
+        "noWhiteInk": {
+            "motto": "M121 155 Q256 58 391 155",
+            "name": "M136 426 Q256 400 376 426",
+            "mottoBackdropWidth": 0,
+            "nameBackdropWidth": 0,
+            "mottoDy": 4,
+            "nameDy": 11,
+            "hideJoiningStroke": true
         }
     },
     "textPresets": {
@@ -298,6 +307,32 @@
                 "y": 120
             },
             "paths": "canonical"
+        },
+        {
+            "file": "club-friday-logo-red-jersey-no-white.svg",
+            "title": "Club Friday red jersey logo, no-white print fallback",
+            "description": "Single navy ink Club Friday logo for red jersey printers that cannot deposit white ink or a white underbase.",
+            "artwork": "oneColor",
+            "text": "englishOneColor",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
+            "paths": "noWhiteInk"
+        },
+        {
+            "file": "club-friday-logo-red-jersey-no-white-bn.svg",
+            "title": "ক্লাব ফ্রাইডে লাল জার্সি লোগো - সাদা কালিবিহীন বিকল্প",
+            "description": "যেসব প্রিন্টার সাদা কালি বা হোয়াইট আন্ডারবেস দিতে পারে না, তাদের জন্য একরঙা নেভি কালিতে তৈরি লাল জার্সির বিকল্প লোগো।",
+            "artwork": "oneColor",
+            "text": "banglaOneColor",
+            "symbols": {
+                "leftX": 174,
+                "rightX": 338,
+                "y": 120
+            },
+            "paths": "noWhiteInk"
         },
         {
             "file": "club-friday-logo-dark-bn.svg",

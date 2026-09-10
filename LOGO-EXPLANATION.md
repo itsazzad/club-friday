@@ -94,6 +94,18 @@ The red-jersey variants are designed for a `#DA291C` garment. They keep the same
 
 This is an application-specific color treatment; it does not change the canonical logo geometry.
 
+### Red-jersey no-white print fallback
+
+Some 4-color printers cannot lay down white ink or a white underbase. On red fabric, transparent or white-only artwork simply disappears or shows the garment color instead of white, so the white-structure red-jersey variant above is not usable on that equipment.
+
+The `club-friday-logo-red-jersey-no-white` variants are the fallback for that case:
+
+- The entire emblem - structure, badges, ball, and text - uses a single opaque navy `#17324D` ink, so no white ink or underbase is required.
+- The motto and club name move off the structural arcs (using the `pathPresets.noWhiteInk` geometry) so the navy text never overlaps another navy stroke and stays readable directly on the red fabric.
+- The lower connecting arc is omitted for this variant so the club name sits on plain fabric instead of on top of an ink line.
+
+Ask the printer first whether they can add a white underbase or use a white-capable process (DTF, DTG, screen print, heat-transfer vinyl, or an embroidered patch); that keeps the intended white-on-red contrast. Use the no-white fallback only when white truly cannot be printed, since it trades the original contrast for manufacturability.
+
 ## Hand-Drawing Guidance
 
 The logo is designed to be reproduced without specialist equipment:
@@ -112,25 +124,29 @@ The logo should remain recognizable in color, black and white, embroidery, stamp
 
 ## Logo Variants
 
-The official set uses a shared path-text composition in light, dark, red-jersey, and one-color English and Bangla variants. Every variant reuses the canonical path geometry; only artwork colors, text colors, and application metadata change.
+The official set uses a shared path-text composition in light, dark, red-jersey, red-jersey-no-white, and one-color English and Bangla variants. Every variant reuses the canonical path geometry (the no-white fallback repositions only the text, via `pathPresets.noWhiteInk`); only artwork colors, text colors, and application metadata change.
 
 ## Files
 
 - `logo/club-friday-logo.svg` - the English light-background text-on-paths variant.
 - `logo/club-friday-logo-dark.svg` - the English dark-background text-on-paths variant.
 - `logo/club-friday-logo-red-jersey.svg` - the English red-jersey text-on-paths variant.
+- `logo/club-friday-logo-red-jersey-no-white.svg` - the English red-jersey no-white-ink print fallback.
 - `logo/club-friday-logo-one-color.svg` - the English one-color text-on-paths variant.
 - `logo/club-friday-logo-bn.svg` - the Bangla light-background text-on-paths variant.
 - `logo/club-friday-logo-dark-bn.svg` - the Bangla dark-background text-on-paths variant.
 - `logo/club-friday-logo-red-jersey-bn.svg` - the Bangla red-jersey text-on-paths variant.
+- `logo/club-friday-logo-red-jersey-no-white-bn.svg` - the Bangla red-jersey no-white-ink print fallback.
 - `logo/club-friday-logo-one-color-bn.svg` - the Bangla one-color text-on-paths variant.
 - `logo/club-friday-logo.png` - the English light-background PNG export.
 - `logo/club-friday-logo-dark.png` - the English dark-background PNG export.
 - `logo/club-friday-logo-red-jersey.png` - the English red-jersey PNG export.
+- `logo/club-friday-logo-red-jersey-no-white.png` - the English red-jersey no-white-ink PNG export.
 - `logo/club-friday-logo-one-color.png` - the English one-color PNG export.
 - `logo/club-friday-logo-bn.png` - the Bangla light-background PNG export.
 - `logo/club-friday-logo-dark-bn.png` - the Bangla dark-background PNG export.
 - `logo/club-friday-logo-red-jersey-bn.png` - the Bangla red-jersey PNG export.
+- `logo/club-friday-logo-red-jersey-no-white-bn.png` - the Bangla red-jersey no-white-ink PNG export.
 - `logo/club-friday-logo-one-color-bn.png` - the Bangla one-color PNG export.
 - `LOGO-EXPLANATION-BN.md` - the Bangla translation of this logo explanation.
 - `README.md` - the original club brief and sports interests.

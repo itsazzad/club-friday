@@ -42,7 +42,9 @@ Together, these values guide the club both on the playing field and in social wo
 - Green `#4E9B83`: growth, balance, and continuity.
 - Warm cream `#FFF4D6`: neutral support color for openness and shared space.
 
-For the red-jersey application, the garment color is `#DA291C`. The red-jersey variants keep the shared base geometry and use white structural artwork, jersey-red motto/name text on the white bands, transparent member centers, and a transparent ball interior with white ball artwork.
+For the red-jersey application, the garment color is `#DA291C`. The red-jersey variants keep the shared base geometry and use white structural artwork, jersey-red motto/name text on the white bands, transparent member centers, and a transparent ball interior with white ball artwork. This requires a printer that can lay down white ink or a white underbase on the red fabric.
+
+If the printer cannot produce white at all (common with basic 4-color/CMYK-only equipment), use the `club-friday-logo-red-jersey-no-white` variant instead. It renders the whole emblem in a single navy `#17324D` ink directly on the red fabric, with no white artwork anywhere, and moves the motto/name text off the structural arcs so it never overlaps another ink. Confirm with the printer whether they can add a white underbase or a white-capable process (DTF, DTG, screen print, heat-transfer, or an embroidered patch) before defaulting to the no-white fallback, since it does not reproduce the intended white-on-red contrast.
 
 The logo uses six expressive colors plus warm cream as a neutral support color. Navy is used for both the main structure and the club name to keep the palette compact and consistent.
 
@@ -82,16 +84,16 @@ The token file [ux-tokens.css](ux-tokens.css) contains a ready-to-use implementa
 
 ### Logo Variants
 
-The project keeps the path-text family as the official logo set. Choose the light, dark, red-jersey, or one-color variant according to the application; Bangla counterparts are available for each. All variants reuse the canonical geometry defined in the `pathPresets.canonical` entry in [logo-variants.json](logo-variants.json).
+The project keeps the path-text family as the official logo set. Choose the light, dark, red-jersey, red-jersey-no-white, or one-color variant according to the application; Bangla counterparts are available for each. All variants reuse the canonical geometry defined in the `pathPresets.canonical` entry in [logo-variants.json](logo-variants.json); the no-white fallback reuses the same geometry through the `pathPresets.noWhiteInk` entry, which only repositions the text off the structural arcs.
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
 
-Bangla path-text files are available in light, dark, red-jersey, and one-color variants, with matching PNG exports.
+Bangla path-text files are available in light, dark, red-jersey, red-jersey-no-white, and one-color variants, with matching PNG exports.
 
 ### Export PNGs
 
-The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets, the canonical path preset, and small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all eight SVGs and their transparent PNGs at 1024 x 1000 with:
+The SVG variants are generated from [logo-template.svg](logo-template.svg). The template contains the shared SVG structure; [logo-variants.json](logo-variants.json) contains reusable artwork/text presets, the canonical path preset, and small per-variant metadata. The build converts generated text to vector paths so SVG and PNG typography stay consistent. The template remains the editable text source. Regenerate all ten SVGs and their transparent PNGs at 1024 x 1000 with:
 
 ```sh
 ./generate-logos.sh
@@ -109,4 +111,4 @@ The generator requires Node.js and Inkscape. Inkscape is available on macOS with
 
 The generator validates preset references before writing files, deep-merges inherited presets, rejects invalid output names, removes stale generated assets, writes SVGs atomically, creates the `logo/` output directory when needed, and escapes text metadata for valid XML. The PNG exporter discovers every SVG in `logo/` automatically and fails clearly when no SVG inputs exist.
 
-All variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light, dark, red-jersey, or one-color version according to the application.
+All variants can be used in print and digital applications, including websites, social media, presentations, documents, stamps, embroidery, signage, and hand-painted reproductions. Choose the light, dark, red-jersey, red-jersey-no-white, or one-color version according to the application.
