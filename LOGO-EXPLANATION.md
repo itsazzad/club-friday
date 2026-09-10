@@ -98,11 +98,11 @@ This is an application-specific color treatment; it does not change the canonica
 
 Some 4-color printers cannot lay down white ink or a white underbase. On red fabric, transparent or white-only artwork simply disappears or shows the garment color instead of white, so the white-structure red-jersey variant above is not usable on that equipment.
 
-The `club-friday-logo-red-jersey-no-white` variants are the fallback for that case:
+The `club-friday-logo-red-jersey-no-white` variants are the fallback for that case. They keep the exact same canonical geometry, arc paths, member badges, symbols, and ball proportions as every other variant, and only change color:
 
-- The entire emblem - structure, badges, ball, and text - uses a single opaque navy `#17324D` ink, so no white ink or underbase is required.
-- The motto and club name move off the structural arcs (using the `pathPresets.noWhiteInk` geometry) so the navy text never overlaps another navy stroke and stays readable directly on the red fabric.
-- The lower connecting arc is omitted for this variant so the club name sits on plain fabric instead of on top of an ink line.
+- The structure, badges, ball, and text all use a single opaque navy `#17324D` ink.
+- A dark gold `#A86B00` band sits behind the motto and club name, on the same canonical arc positions used everywhere else, so the navy text stays legible against the navy structural and joining lines.
+- Only navy and gold are used; no white ink or underbase is required.
 
 Ask the printer first whether they can add a white underbase or use a white-capable process (DTF, DTG, screen print, heat-transfer vinyl, or an embroidered patch); that keeps the intended white-on-red contrast. Use the no-white fallback only when white truly cannot be printed, since it trades the original contrast for manufacturability.
 
@@ -124,7 +124,7 @@ The logo should remain recognizable in color, black and white, embroidery, stamp
 
 ## Logo Variants
 
-The official set uses a shared path-text composition in light, dark, red-jersey, red-jersey-no-white, and one-color English and Bangla variants. Every variant reuses the canonical path geometry (the no-white fallback repositions only the text, via `pathPresets.noWhiteInk`); only artwork colors, text colors, and application metadata change.
+The official set uses a shared path-text composition in light, dark, red-jersey, red-jersey-no-white, and one-color English and Bangla variants. Every variant, including the no-white fallback, reuses the same canonical path geometry; only artwork colors, text colors, and application metadata change.
 
 ## Files
 

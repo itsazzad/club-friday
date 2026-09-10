@@ -44,7 +44,7 @@ Together, these values guide the club both on the playing field and in social wo
 
 For the red-jersey application, the garment color is `#DA291C`. The red-jersey variants keep the shared base geometry and use white structural artwork, jersey-red motto/name text on the white bands, transparent member centers, and a transparent ball interior with white ball artwork. This requires a printer that can lay down white ink or a white underbase on the red fabric.
 
-If the printer cannot produce white at all (common with basic 4-color/CMYK-only equipment), use the `club-friday-logo-red-jersey-no-white` variant instead. It renders the whole emblem in a single navy `#17324D` ink directly on the red fabric, with no white artwork anywhere, and moves the motto/name text off the structural arcs so it never overlaps another ink. Confirm with the printer whether they can add a white underbase or a white-capable process (DTF, DTG, screen print, heat-transfer, or an embroidered patch) before defaulting to the no-white fallback, since it does not reproduce the intended white-on-red contrast.
+If the printer cannot produce white at all (common with basic 4-color/CMYK-only equipment), use the `club-friday-logo-red-jersey-no-white` variant instead. It keeps the exact same canonical geometry as every other variant and uses two opaque, non-white inks - navy `#17324D` for the structure, badges, ball, and text, and dark gold `#A86B00` as a backdrop band behind the motto/name text - so the text stays legible without any white ink or underbase. Confirm with the printer whether they can add a white underbase or a white-capable process (DTF, DTG, screen print, heat-transfer, or an embroidered patch) before defaulting to the no-white fallback, since it does not reproduce the intended white-on-red contrast.
 
 The logo uses six expressive colors plus warm cream as a neutral support color. Navy is used for both the main structure and the club name to keep the palette compact and consistent.
 
@@ -84,7 +84,7 @@ The token file [ux-tokens.css](ux-tokens.css) contains a ready-to-use implementa
 
 ### Logo Variants
 
-The project keeps the path-text family as the official logo set. Choose the light, dark, red-jersey, red-jersey-no-white, or one-color variant according to the application; Bangla counterparts are available for each. All variants reuse the canonical geometry defined in the `pathPresets.canonical` entry in [logo-variants.json](logo-variants.json); the no-white fallback reuses the same geometry through the `pathPresets.noWhiteInk` entry, which only repositions the text off the structural arcs.
+The project keeps the path-text family as the official logo set. Choose the light, dark, red-jersey, red-jersey-no-white, or one-color variant according to the application; Bangla counterparts are available for each. All variants, including the no-white fallback, reuse the same canonical geometry defined in the `pathPresets.canonical` entry in [logo-variants.json](logo-variants.json).
 
 A fuller explanation is available in [LOGO-EXPLANATION.md](LOGO-EXPLANATION.md).
 The Bangla version is available in [LOGO-EXPLANATION-BN.md](LOGO-EXPLANATION-BN.md).
