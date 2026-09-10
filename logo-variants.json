@@ -70,6 +70,24 @@
             "action": "#17324D",
             "joining": "#17324D",
             "symbol": "#17324D"
+        },
+        "redJerseyNoWhite": {
+            "structure": "#17324D",
+            "textBackdrop": "#A86B00",
+            "badges": {
+                "younger": "#17324D",
+                "adult": "#17324D",
+                "older": "#17324D"
+            },
+            "badgeInner": "none",
+            "ball": {
+                "fill": "none",
+                "stroke": "#17324D",
+                "panel": "#17324D"
+            },
+            "action": "#17324D",
+            "joining": "#17324D",
+            "symbol": "#17324D"
         }
     },
     "pathPresets": {
@@ -80,15 +98,6 @@
             "nameBackdropWidth": 44,
             "mottoDy": 4,
             "nameDy": 11
-        },
-        "noWhiteInk": {
-            "motto": "M121 155 Q256 58 391 155",
-            "name": "M136 426 Q256 400 376 426",
-            "mottoBackdropWidth": 0,
-            "nameBackdropWidth": 0,
-            "mottoDy": 4,
-            "nameDy": 11,
-            "hideJoiningStroke": true
         }
     },
     "textPresets": {
@@ -137,6 +146,12 @@
             "nameFill": "#DA291C",
             "mottoSize": 12
         },
+        "banglaOnPathsRedJerseyNoWhite": {
+            "extends": "banglaBase",
+            "mottoColors": ["#17324D", "#17324D", "#17324D"],
+            "nameFill": "#17324D",
+            "mottoSize": 12
+        },
         "banglaDarkOnPaths": {
             "extends": "banglaBase",
             "mottoColors": ["#17324D", "#17324D", "#17324D"],
@@ -183,6 +198,11 @@
             "extends": "englishBase",
             "mottoColors": ["#DA291C", "#DA291C", "#DA291C"],
             "nameFill": "#DA291C"
+        },
+        "englishRedJerseyNoWhiteOnPaths": {
+            "extends": "englishBase",
+            "mottoColors": ["#17324D", "#17324D", "#17324D"],
+            "nameFill": "#17324D"
         },
         "englishOneColorOnPaths": {
             "extends": "englishBase",
@@ -311,28 +331,28 @@
         {
             "file": "club-friday-logo-red-jersey-no-white.svg",
             "title": "Club Friday red jersey logo, no-white print fallback",
-            "description": "Single navy ink Club Friday logo for red jersey printers that cannot deposit white ink or a white underbase.",
-            "artwork": "oneColor",
-            "text": "englishOneColor",
+            "description": "Navy and gold ink Club Friday logo, identical in geometry to the other variants, for red jersey printers that cannot deposit white ink or a white underbase.",
+            "artwork": "redJerseyNoWhite",
+            "text": "englishRedJerseyNoWhiteOnPaths",
             "symbols": {
                 "leftX": 174,
                 "rightX": 338,
                 "y": 120
             },
-            "paths": "noWhiteInk"
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-red-jersey-no-white-bn.svg",
             "title": "ক্লাব ফ্রাইডে লাল জার্সি লোগো - সাদা কালিবিহীন বিকল্প",
-            "description": "যেসব প্রিন্টার সাদা কালি বা হোয়াইট আন্ডারবেস দিতে পারে না, তাদের জন্য একরঙা নেভি কালিতে তৈরি লাল জার্সির বিকল্প লোগো।",
-            "artwork": "oneColor",
-            "text": "banglaOneColor",
+            "description": "যেসব প্রিন্টার সাদা কালি বা হোয়াইট আন্ডারবেস দিতে পারে না, তাদের জন্য নেভি ও সোনালি কালিতে তৈরি লাল জার্সির বিকল্প লোগো, যার জ্যামিতি অন্যান্য সংস্করণের অনুরূপ।",
+            "artwork": "redJerseyNoWhite",
+            "text": "banglaOnPathsRedJerseyNoWhite",
             "symbols": {
                 "leftX": 174,
                 "rightX": 338,
                 "y": 120
             },
-            "paths": "noWhiteInk"
+            "paths": "canonical"
         },
         {
             "file": "club-friday-logo-dark-bn.svg",
